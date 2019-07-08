@@ -1,0 +1,24 @@
+{
+  "name": "fe-dev-setup",
+  "version": "1.0.0",
+  "description": "打造舒适的前端开发环境",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs && npm run publish",
+    "publish": "surge ./docs/.vuepress/dist fe.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykfe/fe-dev-setup.git"
+  },
+  "author": "ykfe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ykfe/fe-dev-setup/issues"
+  },
+  "homepage": "https://github.com/ykfe/fe-dev-setup#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
