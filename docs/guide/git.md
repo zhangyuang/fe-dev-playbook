@@ -41,17 +41,17 @@ $ vim 1.txt
 ```
 在master分支对1.txt做修改并且commit
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/83501/1553740210024-f7bd2737-f7b8-4f6a-b13a-0c5a4c26f22b.png)
+![](http://gw.alicdn.com/tfs/TB1luMFXBr0gK0jSZFnXXbRRXXa-1138-852.png)
 
 切换到rebase分支，修改两次1.txt，并进行两次commit
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/83501/1553740353352-74a29a45-0aeb-46ac-a72d-ea76d34bece6.png)
+![](http://gw.alicdn.com/tfs/TB1UWIFXBv0gK0jSZKbXXbK2FXa-1140-856.png)
 使用git rebase 合并刚刚的两次commit
 
 ```
 git rebase -i HEAD~x x代表你要合并前x次commit 这里我们填2, 这里你也可以直接填具体的commit对应的hash值
 git rebase -i HEAD~2
 ```
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/83501/1553740412515-a0a46807-51ab-4852-b3c7-ef184da0d69b.png)
+![](http://gw.alicdn.com/tfs/TB1Qs7DXAT2gK0jSZFkXXcIQFXa-1154-866.png)
 这里的pick的意思是
 
 > pick：保留该commit（缩写:p）  
@@ -64,15 +64,15 @@ drop：我要丢弃该commit（缩写:d）
 
 我们使用的比较多的是`s`和`f`两个选项，在这里我们想要合并两次commit为一个，所以将我们的rebase信息改为
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/83501/1553741791827-7573cf3a-851b-4ebd-8320-aa8278aa13bf.png)
+![](http://gw.alicdn.com/tfs/TB1wPMDXuL2gK0jSZFmXXc7iXXa-1148-840.png)
 
 保存之后出现如下界面，可以让我们设置合并后的commit信息，在第二行写上新的cm信息，并且注释掉之前的两次cm信息，或者直接用dd来删除
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/83501/1553741864767-e7aedb39-95b6-4655-b619-5b8056e22f40.png)
+![](http://gw.alicdn.com/tfs/TB1WuIDXAT2gK0jSZPcXXcKkpXa-1142-852.png)
 
 `:wq`保存后查看git log
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/83501/1553741914246-d036b7ff-379c-4969-9761-1dbb7e490417.png)
+![](http://gw.alicdn.com/tfs/TB1l5.DXuP2gK0jSZFoXXauIVXa-1144-848.png)
 
 ok,前两次cm信息成功被合并为了一个
 
