@@ -67,8 +67,8 @@ zsh的强大之处随便列举就有以下几点，色彩高亮，命令提示�
 
 ```
 $ vim ~/.zshrc // 打开zsh配置文件
-10 ZSH_THEME="ys" // 在第10行设置当前主题为zsh
-$ source ~/.zshrc // 重新执行一边zsh配置文件
+10 ZSH_THEME="ys" // 在第10行设置当前主题为ys
+$ source ~/.zshrc // 重新执行一遍zsh配置文件
 ```
 
 ![](https://gw.alicdn.com/tfs/TB1OxHTXAH0gK0jSZPiXXavapXa-1442-870.jpg)
