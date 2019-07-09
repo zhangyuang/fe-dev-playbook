@@ -1,14 +1,14 @@
 ---
 home: true
-actionText: 快速上手 →
+actionText: 开始阅读 →
 actionLink: /guide/
 features:
 - title: zsh + iterm2
   details: 极品shell配合强大的终端
-- title: Node.js
-  details: 搭建舒适的Node.js应用开发环境
 - title: vscode
   details: 配置vscode使其契合前端/Node.js应用开发
+- title: chrome git 等等其他开发工具
+  details: 持续更新中...
 footer: MIT Licensed | Copyright © 2019-present YKFE 版权所有
 ---
 

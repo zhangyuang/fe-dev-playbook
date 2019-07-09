@@ -33,7 +33,7 @@ module.exports = {
       `var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?ad212e8d41079dc41abaeda9b36e2501";
+        hm.src = "https://hm.baidu.com/hm.js?237f09190380353b568507efa87ac4ce";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })()`,
@@ -55,8 +55,9 @@ module.exports = {
         collapsable: false,
         children: [
           'shell',
-          'Node.js',
-          'vscode'
+          'Nodejs',
+          'vscode',
+          'git'
         ],
       }]
     }
