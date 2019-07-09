@@ -2,7 +2,7 @@
 
 > Git是目前世界上最先进的分布式版本控制系统
 
-本篇文章将重点讲解大多数人忽略或者不清楚的点，注意这不是一篇大而全的git使用教程, 只会重点讲解一些关键知识点，如果你需要更全的git教程，你应该去查看[官方文档](https://git-scm.com/)
+本篇文章将重点讲解大多数人忽略或者不清楚的点，注意: 这不是一篇大而全的git使用教程, 只会重点讲解一些关键知识点，如果你需要更全的git教程，你应该去查看[官方文档](https://git-scm.com/)
 
 ## 关联本地仓库与远程仓库
 
@@ -27,9 +27,6 @@ $ git push origin master // 将本地仓库的修改推送到远程origin 仓库
 如果要开发多人合作项目，我们建议将master分支设置为[protected](https://help.github.com/en/articles/configuring-protected-branches)分支，使得不允许直接在master上提交代码，只能通过PR的形式来合并。如何向项目提交PR请参考[GitHub 的 Pull Request 是指什么意思？](https://www.zhihu.com/question/21682976/answer/79489643)
 
 ## 使用git rebase 来合并你的commit
-
-前情提要
-
 
 大部分人在实际开发过程中，都会建立自己的分支开发，这是大部分团队都能做到的，但是我们在测试问题的时候总是会提交一些无用的commit去远程的repo，自己的分支还好，但是最后把自己的分支合并到master上的时候如果还带上这些commit就十分不雅观了，当然github的PR功能已经给我们合并PR的时候提供了多种选项，其中就包括rebase。但是这里还是要介绍一个很多人不常用的命令，git rebase，也就是变基，git rebase功能很强大，也很容易一不小心弄不好就把你的整个commit或者git历史弄乱，所以这里我们不写如何用它来变基，只说如何用它来合并自己的commit。[参考教程](http://gitbook.liuhui998.com/4_2.html)
 

@@ -1,8 +1,6 @@
 # VS Code
 
-vscode毫无疑问是目前最强大的编辑器，没有之一，凭借自身丰富的插件体系以及优秀的断点调试能力迅速成为最火热的编辑器，连Vue作者都从sublime阵营切换到vscode阵营了。与时俱进是优秀的品质。
-
-![](https://gw.alicdn.com/tfs/TB1ZTr_XAH0gK0jSZPiXXavapXa-1210-268.jpg)
+vscode毫无疑问是目前最强大的编辑器，没有之一，凭借自身丰富的插件体系以及优秀的断点调试能力迅速成为最火热的编辑器。
 
 ## 安装vscode
 
