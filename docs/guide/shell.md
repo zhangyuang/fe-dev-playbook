@@ -116,3 +116,13 @@ $ gcmsg "" // 等价于git commit -m ""
 $ gco // 等价与git check out
 $ gb // 等价于git branch
 ```
+
+### 进入目录
+
+无需输入`cd`命令
+`~`等价于`cd ～`
+
+### 路径补全
+
+*nix 下的其他shell默认可以通过tab来实现路径补全，但是功能比起zsh的路径补全简直是太简单了。这里我们举一个例子
+`cd /u/l/b + tab` 自动帮你补全为`cd /usr/local/bin/`
