@@ -5,8 +5,8 @@
 
 - [zsh + iterm2](./shell.md) 如何使用强大的shell，zsh
 - [Node.js](./Node.js.md) 如何搭建Node.js开发环境
-- [git](./git.md) 如何使用git来进行团队合作开发
-- [vscode](./vscode.md) 配置契合前端开发的vscode环境以及如何进行断点调试
-- [chrome](./chrome.md) chrome的一些配置项
-- [utils](./utils.md) 实用小工具
+- [Git](./git.md) 如何使用git来进行团队合作开发
+- [VS Code](./vscode.md) 配置契合前端开发的vscode环境以及如何进行断点调试
+- [Chrome](./chrome.md) chrome的一些配置项
+- [Utils](./utils.md) 实用小工具
 

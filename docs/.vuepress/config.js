@@ -57,7 +57,8 @@ module.exports = {
           'shell',
           'Nodejs',
           'vscode',
-          'git'
+          'git',
+          'chrome'
         ],
       }]
     }

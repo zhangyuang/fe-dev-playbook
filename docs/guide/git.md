@@ -6,25 +6,40 @@
 
 ## 关联本地仓库与远程仓库
 
-大多数人都会使用git clone 命令来将github上的代码仓库克隆到本地，然后做一些修改后就可以使用git push等命令来提交修改，但是这导致的问题就是大多数人对本地仓库和远程仓库是如何关联起来的不清楚，同时也不清楚有时候用到的origin 这个究竟代表什么意思。下面我们从0来讲解如何将本地仓库和远程仓库关联。
+大多数人都会使用`git clone`命令来将github上的代码仓库克隆到本地，然后做一些修改后就可以使用`git push`等命令来提交修改，但是这导致的问题就是大多数人对本地仓库和远程仓库是如何关联起来的不清楚，同时也不清楚有时候用到的`origin`这个究竟代表什么意思。下面我们从零来讲解如何将本地仓库和远程仓库关联。
 
 ```
 $ mkdir studyGit // 创建目录
 $ cd studyGit // 进入该目录
-$ git init // 初始化本地git仓库配置文件
+$ g init // 初始化本地git仓库配置文件
 // 这是最关键的命令，这里我们给本地的git仓库添加了一个名为origin，地址为git@github.com:ykfe/fe-dev-setup.git的远程仓库
-$ git remote add origin git@github.com:ykfe/fe-dev-setup.git 
-$ git add .
-$ git commit -m "feat: init files" // 在这里我们做一些修改然后commit生成一个本地的版本
-$ git push origin master // 将本地仓库的修改推送到远程origin 仓库的master分支
+$ g remote add origin git@github.com:ykfe/fe-dev-setup.git 
+$ ga .
+$ gcmsg "feat: init files" // 在这里我们做一些修改然后commit生成一个本地的版本
+$ g push origin master // 将本地仓库的修改推送到远程origin 仓库的master分支
 ```
 
 通过以上代码我们可以知道，`origin`代表的是远程仓库的名称，这里的`origin`我们可以在`git remote` 的时候自定义名称，不一定要叫`origin`只是官方的规范对`clone`下来的远程仓库默认叫做`origin`。  
-看到这里，你可以知道我们完全可以通过`git remote`添加多个远程仓库来实现同时将代码推送到`github/gitlab/gitoschina`
+看到这里，你可以知道我们完全可以通过`git remote`添加多个远程仓库来实现同时将代码推送到`github/gitlab/gitoschina`多个远程仓库
+
+## git add + commit 与 git commit -am 的区别
+
+大多数人喜欢用后面的一种方式来添加提交本地代码到本地仓库中，但后一种与前一种方式并不是完全相等的。
 
 ## 多人合作开发
 
 如果要开发多人合作项目，我们建议将master分支设置为[protected](https://help.github.com/en/articles/configuring-protected-branches)分支，使得不允许直接在master上提交代码，只能通过PR的形式来合并。如何向项目提交PR请参考[GitHub 的 Pull Request 是指什么意思？](https://www.zhihu.com/question/21682976/answer/79489643)
+
+## commit message 规范
+
+commit message是必须要遵循一定的规范的，随意的commit message只会让人感受到不专业。这里我们参考[AngularJS commit message conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
+> This would add kinda “context” information. Look at these messages (taken from last few angular’s commits):  
+Fix small typo in docs widget (tutorial instructions)  
+Fix test for scenario.Application - should remove old iframe  
+docs - various doc fixes  
+docs - stripping extra new lines  
+Replaced double line break with single when text is fetched from Google  
+Added support for properties in documentation  
 
 ## 使用git rebase 来合并你的commit
 
