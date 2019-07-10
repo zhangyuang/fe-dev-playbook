@@ -60,6 +60,7 @@ module.exports = {
           'git',
           'chrome',
           'utils',
+          'vim'
         ],
       }]
     }
