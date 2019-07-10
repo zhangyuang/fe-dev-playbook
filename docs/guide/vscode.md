@@ -57,6 +57,7 @@ vscode毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 `StandardJS` JavaScript 代码规范配套的vscode插件，下面我们会介绍为什么使用standardjs而不是eslint  
 `React Standard Style` 同上，在React组件中使用standardjs代码规范  
 `Vetur` 开发Vue组件的辅助工具  
+`Minify` 自动生成经过uglify后的文件
 
 ### standardjs
 

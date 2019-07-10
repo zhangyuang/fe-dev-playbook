@@ -24,7 +24,11 @@ $ g push origin master // 将本地仓库的修改推送到远程origin 仓库�
 
 ## git add + commit 与 git commit -am 的区别
 
-大多数人喜欢用后面的一种方式来添加提交本地代码到本地仓库中，但后一种与前一种方式并不是完全相等的。
+大多数人喜欢用后面的一种方式来添加提交本地代码到本地仓库中，但后一种与前一种方式并不是完全相等的。  
+熟悉Git的同学知道，我们在项目中新建一个新文件后，它的状态是`untracked`的，当我们使用`git add .` 将其添加到暂存区时，它的状态就会变为`tracked`，即可追踪的。当我们用`git commit`的时候会将暂存区的文件提交到本地仓库生成一个commit记录。  
+`git commit -am` 只会将`tracked`状态的文件commit到本地仓库，意思是如果你有新的文件产生，并且之前没有用`git add` 将其状态变为`tracked`，使用 `git commit -am` 并不能将该文件commit到本地仓库，容易造成文件的丢失。
+
+![](https://gw.alicdn.com/tfs/TB1c5RSXKL2gK0jSZPhXXahvXXa-1436-1152.jpg)
 
 ## 多人合作开发
 
@@ -100,4 +104,3 @@ ok,前两次cm信息成功被合并为了一个
 ```
 $ git push origin dev -f // 使用--force来强制push，但你要清楚这可能会导致你的一些commit记录的丢失，所以请仅在个人分支进行该操作
 ```
-

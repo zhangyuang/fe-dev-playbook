@@ -20,7 +20,7 @@ Chrome的[插件商店](https://chrome.google.com/webstore/category/extensions?h
 
 [沙拉查词](https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg) 必装的插件，划词翻译功能是我目前用过的最舒服的  
 [Quick QR](https://chrome.google.com/webstore/detail/afpbjjgbdimpioenaedcjgkaigggcdpp) 必装的插件，将链接转换为二维码  
-[lighthouse](https://chrome.google.com/webstore/detail/blipmdconlkpinefehnmjammfjpmpbjk) Google官方出品，可以分析出你的网页的性能数据，以及列出可以优化的点
+[lighthouse](https://chrome.google.com/webstore/detail/blipmdconlkpinefehnmjammfjpmpbjk) Google官方出品，可以分析出你的网页的性能数据，以及列出可以优化的点  
 [JSON Formatter](https://chrome.google.com/webstore/detail/bcjindcccaagfpapjjmafapmmgkkhgoa) 格式化JSON文件，让你在浏览器打开JSON文件时获得更愉悦的体验  
 [React Developer Tools](https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi) 开发React应用时用的辅助工具，大部分人应该都装了  
 [Vue.js devtools](https://chrome.google.com/webstore/detail/nhdogjmejiglipccpnnnanhbledajbpd) 同上，开发Vue应用时的辅助工具  
