@@ -12,8 +12,8 @@
 $ mkdir studyGit // 创建目录
 $ cd studyGit // 进入该目录
 $ g init // 初始化本地git仓库配置文件
-// 这是最关键的命令，这里我们给本地的git仓库添加了一个名为origin，地址为git@github.com:ykfe/fe-dev-setup.git的远程仓库
-$ g remote add origin git@github.com:ykfe/fe-dev-setup.git 
+// 这是最关键的命令，这里我们给本地的git仓库添加了一个名为origin，地址为git@github.com:ykfe/fe-dev-playbook.git的远程仓库
+$ g remote add origin git@github.com:ykfe/fe-dev-playbook.git 
 $ ga .
 $ gcmsg "feat: init files" // 在这里我们做一些修改然后commit生成一个本地的版本
 $ g push origin master // 将本地仓库的修改推送到远程origin 仓库的master分支
