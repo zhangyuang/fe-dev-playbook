@@ -7,6 +7,8 @@ features:
   details: 极品shell配合强大的终端
 - title: VS Code
   details: 配置vscode使其契合前端/Node.js应用开发以及学习如何进行断点调试
+- title: Mac os
+  details: Mac os的一些使用技巧
 - title: Chrome Git Spectacle 等等其他开发工具
   details: 文档持续更新中...
 footer: MIT Licensed | Copyright © 2019-present YKFE 版权所有
