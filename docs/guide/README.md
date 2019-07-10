@@ -9,4 +9,5 @@
 - [VS Code](./vscode.md) 配置契合前端开发的vscode环境以及如何进行断点调试
 - [Chrome](./chrome.md) chrome的一些配置项
 - [Utils](./utils.md) 实用小工具
+- [Mac](./Mac.md) mac系统的一些使用技巧
 
