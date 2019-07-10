@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'fe-dev-setup',
+  title: 'fe-dev-playbook',
   head: [
     [
       'link',
@@ -18,7 +18,7 @@ module.exports = {
     ],
     ['meta', {
       property: 'og:title',
-      content: 'fe-dev-setup'
+      content: 'fe-dev-playbook'
     }],
     [
       'meta',
@@ -39,7 +39,7 @@ module.exports = {
       })()`,
     ],
   ],
-  description: '如何打造舒适的前端开发环境',
+  description: '打造舒适的前端开发环境',
   themeConfig: {
     nav: [{
         text: '指南',
@@ -47,7 +47,7 @@ module.exports = {
       },
       {
         text: 'Github',
-        link: 'https://github.com/ykfe/fe-dev-setup'
+        link: 'https://github.com/ykfe/fe-dev-playbook'
       },
     ],
     sidebar: {
@@ -58,7 +58,9 @@ module.exports = {
           'Nodejs',
           'vscode',
           'git',
-          'chrome'
+          'chrome',
+          'utils',
+          'vim'
         ],
       }]
     }

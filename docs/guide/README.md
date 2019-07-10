@@ -4,7 +4,7 @@
 在本文档中，我们分为以下几个篇章来讲解将要使用到的工具
 
 - [zsh + iterm2](./shell.md) 如何使用强大的shell，zsh
-- [Node.js](./Node.js.md) 如何搭建Node.js开发环境
+- [Node.js](./Nodejs.md) 如何搭建Node.js开发环境
 - [Git](./git.md) 如何使用git来进行团队合作开发
 - [VS Code](./vscode.md) 配置契合前端开发的vscode环境以及如何进行断点调试
 - [Chrome](./chrome.md) chrome的一些配置项

@@ -12,8 +12,8 @@
 $ mkdir studyGit // 创建目录
 $ cd studyGit // 进入该目录
 $ g init // 初始化本地git仓库配置文件
-// 这是最关键的命令，这里我们给本地的git仓库添加了一个名为origin，地址为git@github.com:ykfe/fe-dev-setup.git的远程仓库
-$ g remote add origin git@github.com:ykfe/fe-dev-setup.git 
+// 这是最关键的命令，这里我们给本地的git仓库添加了一个名为origin，地址为git@github.com:ykfe/fe-dev-playbook.git的远程仓库
+$ g remote add origin git@github.com:ykfe/fe-dev-playbook.git 
 $ ga .
 $ gcmsg "feat: init files" // 在这里我们做一些修改然后commit生成一个本地的版本
 $ g push origin master // 将本地仓库的修改推送到远程origin 仓库的master分支
@@ -33,6 +33,10 @@ $ g push origin master // 将本地仓库的修改推送到远程origin 仓库�
 ## 多人合作开发
 
 如果要开发多人合作项目，我们建议将master分支设置为[protected](https://help.github.com/en/articles/configuring-protected-branches)分支，使得不允许直接在master上提交代码，只能通过PR的形式来合并。如何向项目提交PR请参考[GitHub 的 Pull Request 是指什么意思？](https://www.zhihu.com/question/21682976/answer/79489643)
+
+## Git flow
+
+使用[git-flow](https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow)这个工具可以帮助我们更好的控制我们的工作流程
 
 ## commit message 规范
 

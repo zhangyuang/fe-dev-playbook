@@ -48,18 +48,22 @@ $ nrm ls // 列出当前支持切换的源
 $ nrm use taobao // 使用taobao的源作为默认的npm源
 ```
 
-## http-server
+## 实用模块
+
+下面来介绍一种实用的Node.js模块
+
+### http-server
 
 使用[http-server](https://www.npmjs.com/package/http-server)我们可以快速的创建一个本地http server服务，并且托管我们当前目录作为静态资源文件夹而不用特地去用Node.js框架来搭建一个静态资源服务
 
-### 使用http-server
+#### 使用http-server
 
 ```
 $ npm install http-server -g // 安装http-server模块
 $ http-server . -p 8080 // 监听8080端口，以当前目录作为静态资源目录
 ```
 
-## promisify
+### promisify
 
 [util.promisify](http://nodejs.cn/api/util.html#util_util_promisify_original)是Node.js的官方API，使用该API我们可以将callback形式的Node.js API包装为Promise的形式,只要符合最后一个参数是callback，并且callback第一个参数是错误处理的API都可以通过promisify来包装
 
@@ -72,7 +76,7 @@ const installServer = async () => {
 }
 ```
 
-## npm link
+## 使用 npm link 调试模块
 
 熟练的使用npm link可以帮助我们本地调试任何开源项目，当我们的一个项目还没有发布到npmjs.com想在本地测试时，或者当我们想修改React/Vue的源码想在本地测试效果时，我们都需要使用npm link来进行测试。npm link 类似于Linux中的软链接，简单理解可以理解为一个快捷方式。使用方式：
 

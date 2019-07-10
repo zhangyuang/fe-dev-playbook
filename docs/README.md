@@ -3,14 +3,12 @@ home: true
 actionText: 开始阅读 →
 actionLink: /guide/
 features:
-- title: zsh + iterm2
-  details: 极品shell配合强大的终端
-- title: VS Code
-  details: 配置vscode使其契合前端/Node.js应用开发以及学习如何进行断点调试
-- title: Mac os
-  details: Mac os的一些使用技巧
-- title: Chrome Git Spectacle 等等其他开发工具
-  details: 文档持续更新中...
+- title: 快捷键
+  details: 使用快捷键将你从繁琐的鼠标操作中脱离出来
+- title: 工具
+  details: 使用一些现代化的流行工具来提升我们的开发效率
+- title: 规范
+  details: follow一些前端开发规范会让我们看起来更加的专业
 footer: MIT Licensed | Copyright © 2019-present YKFE 版权所有
 ---
 
@@ -18,7 +16,7 @@ footer: MIT Licensed | Copyright © 2019-present YKFE 版权所有
 
 | Pull Request                                                | Github Issue                                            | 钉钉群                                                                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [fe-dev-setup/pulls](https://github.com/ykfe/fe-dev-setup/pulls) | [fe-dev-setup/issues](https://github.com/ykfe/fe-dev-setup/issues) | <img src="https://img.alicdn.com/tfs/TB15zfha79E3KVjSZFGXXc19XXa-750-990.jpg" width="60" /> |
+| [fe-dev-playbook/pulls](https://github.com/ykfe/fe-dev-playbook/pulls) | [fe-dev-playbook/issues](https://github.com/ykfe/fe-dev-playbook/issues) | <img src="https://img.alicdn.com/tfs/TB15zfha79E3KVjSZFGXXc19XXa-750-990.jpg" width="60" /> |
 
 
 
