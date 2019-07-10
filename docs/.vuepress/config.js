@@ -54,13 +54,14 @@ module.exports = {
       '/guide/': [{
         collapsable: false,
         children: [
-          'shell',
+          'Shell',
           'Nodejs',
-          'vscode',
-          'git',
-          'chrome',
-          'utils',
-          'vim'
+          'VSCode',
+          'Git',
+          'Chrome',
+          'Utils',
+          'Mac',
+          'Vim',
         ],
       }]
     }
