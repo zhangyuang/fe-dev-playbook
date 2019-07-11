@@ -34,7 +34,7 @@ $ g push origin master // 将本地仓库的修改推送到远程origin 仓库�
 
 如果要开发多人合作项目，我们建议将master分支设置为[protected](https://help.github.com/en/articles/configuring-protected-branches)分支，使得不允许直接在master上提交代码，只能通过PR的形式来合并。如何向项目提交PR请参考[GitHub 的 Pull Request 是指什么意思？](https://www.zhihu.com/question/21682976/answer/79489643)
 
-## Git flow
+## git-flow
 
 使用[git-flow](https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow)这个工具可以帮助我们更好的控制我们的工作流程
 

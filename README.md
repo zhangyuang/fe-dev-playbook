@@ -1,3 +1,5 @@
+![](https://gw.alicdn.com/tfs/TB1PqTRXFP7gK0jSZFjXXc5aXXa-900-383.jpg)
+
 # 打造舒适的前端开发环境
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
@@ -17,9 +19,12 @@
 - 如何搭建Node.js开发环境
 - 如何使用git来进行团队合作开发
 - 配置契合前端开发的vscode环境, 以及断点调试方法
-- chrome的一些使用技巧
+- Chrome的一些使用技巧
 - 介绍一些实用小工具
-- 介绍了MAC系统的一些使用技巧
+- 简单介绍如何使用Mac系统
+- 介绍如何配置使用Vim
+
+![](https://gw.alicdn.com/tfs/TB1dRTWXNv1gK0jSZFFXXb0sXXa-2878-1590.jpg)
 
 注：这不是一篇大而全的文档，不会介绍以上工具的所有用法，只会介绍我们日常开发中使用比较多的用法，如果你需要更加全面的学习，你应该去查阅它们的官方文档。
 
