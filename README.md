@@ -1,4 +1,5 @@
 # 打造舒适的前端开发环境
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 本文档旨在讲述如何打造一个契合于前端开发工程师的开发环境，旨在为刚融入团队的新同学可以迅速follow团队的开发规范，了解并熟练使用常见的开发工具，可以大大的提升我们的工作效率。
 
@@ -21,3 +22,19 @@
 - 介绍了MAC系统的一些使用技巧
 
 注：这不是一篇大而全的文档，不会介绍以上工具的所有用法，只会介绍我们日常开发中使用比较多的用法，如果你需要更加全面的学习，你应该去查阅它们的官方文档。
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/zhangyuang"><img src="https://avatars3.githubusercontent.com/u/17424434?v=4" width="100px;" alt="LeonCheung"/><br /><sub><b>LeonCheung</b></sub></a><br /><a href="https://github.com/ykfe/fe-dev-playbook/commits?author=zhangyuang" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
