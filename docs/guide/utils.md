@@ -13,6 +13,6 @@
 
 [Dash](https://kapeli.com/dash)是一个文档API文档浏览器，在单一窗口中可以浏览、搜索各API细节。使用效果如下图所示。
 
-![](https://i.ibb.co/QXgNT09/2019-07-11-2-07-54.png)
+![](https://img.alicdn.com/tfs/TB1xPgeXNv1gK0jSZFFXXb0sXXa-1820-1206.png)
 
 使用vscode时可以在扩展中搜索Dash，点击安装即可通过 `ctrl+h` 快捷键查找需要的api具体说明。
