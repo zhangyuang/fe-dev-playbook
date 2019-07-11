@@ -1,5 +1,5 @@
 # 打造舒适的前端开发环境
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 本文档旨在讲述如何打造一个契合于前端开发工程师的开发环境，旨在为刚融入团队的新同学可以迅速follow团队的开发规范，了解并熟练使用常见的开发工具，可以大大的提升我们的工作效率。
 
@@ -32,6 +32,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/zhangyuang"><img src="https://avatars3.githubusercontent.com/u/17424434?v=4" width="100px;" alt="LeonCheung"/><br /><sub><b>LeonCheung</b></sub></a><br /><a href="https://github.com/ykfe/fe-dev-playbook/commits?author=zhangyuang" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/jerryYuX"><img src="https://avatars2.githubusercontent.com/u/33367577?v=4" width="100px;" alt="jerryYu"/><br /><sub><b>jerryYu</b></sub></a><br /><a href="https://github.com/ykfe/fe-dev-playbook/commits?author=jerryYuX" title="Documentation">📖</a></td>
   </tr>
 </table>
 
