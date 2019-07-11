@@ -41,7 +41,6 @@ $ open . // 打开当前文件夹
 
 ![](https://img.alicdn.com/tfs/TB1AqoeXUH1gK0jSZSyXXXtlpXa-1224-398.png)
 
-
 ## Spotlight
 
 使用Spotlight来快速打开指定程序，而不是手动去找寻它的快捷方式打开
