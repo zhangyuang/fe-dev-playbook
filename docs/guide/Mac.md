@@ -2,43 +2,49 @@
 
 Mac os是目前前端开发者的最常用操作系统没有之一，掌握Mac os的一些技巧对于在Mac os下进行前端开发的开发者来说尤为重要。
 
-
 ## 设置Mac手势操作
 
-开启所有手势功能，并且熟练使用所有手势是必备技能。
+开启所有手势功能，并且熟练使用所有手势是必备技能。其中比较重要的是三指相关手势。
 
-打开系统偏好设置 --> 选择触控板 --> 勾选所有手势
+打开`系统偏好设置` -> `选择触控板` -> `勾选所有手势`
 
 ![](https://img.alicdn.com/tfs/TB18wuWXHj1gK0jSZFuXXcrHpXa-668-515.jpg)
 
-## 文件夹快捷键
+光标与点按栏目打开辅助点按以及轻点按功能，与鼠标的操作习惯更加贴近
+
+![](https://i.ibb.co/gtvxsFv/20190710222054.jpg)
+
+## 文件夹操作
 
 使用以下快捷键在 Finder 中打开特殊文件夹，这也是使用Mac系统的必备技能之一。  
 
-打开个人文件夹       <br>Command(⌘) + Shift + h
- 
-打开iDisk          <br>Command(⌘) + Shift + i
- 
-打开“桌面”文件夹     <br>Command(⌘) + Shift + d
- 
-打开电脑区域         <br>Command(⌘) + Shift + c
- 
-打开“网络”浏览器     <br>Command(⌘) + Shift + k
- 
-打开“应用程序”文件夹  <br>Command(⌘) + Shift + a
+### 快速打开文件夹
 
-## 设置触发角
+建议使用`autojump + open`来快速打开一个文件夹
 
-熟练使用触发角也是使用Mac系统必备技能之一。
+```
+$ j lib // 进入 /usr/local/lib
+$ open . // 打开当前文件夹
+```
 
-打开系统偏好设置 --> 选择调度中心 --> 选择触发角
+### Finder快捷键 
 
-![](https://img.alicdn.com/tfs/TB14I1ZXQH0gK0jSZPiXXavapXa-668-521.jpg)
+以下介绍Finder常用快捷键
 
-## 使用spotlight
+`cmd` + `shift` + `g` 快速进入指定文件夹  
+`cmd` + `shift` + `h` 进入home目录  
+`cmd` + `shift` + `a` 进入Application目录  
 
-使用spotlight几乎可以找到Mac系统中的一切，因此熟练使用spotlight进行查找也是必备技能之一。
+## 触发角
 
-打开系统偏好设置 --> 选择聚焦 --> 设置搜素范围和启用快捷键
+触发角可以让我们迅速让电脑休眠而不用手动合上屏幕, 打开 `系统偏好设置` -> `屏幕保护程序` -> `触发角` 当人离开座位时，需要将电脑锁屏以保证代码安全，建议按照下图方式设置触发角
 
-![](https://img.alicdn.com/tfs/TB1Sp9YXUz1gK0jSZLeXXb9kVXa-668-595.jpg)
+![](https://img.alicdn.com/tfs/TB1AqoeXUH1gK0jSZSyXXXtlpXa-1224-398.png)
+
+## Spotlight
+
+使用Spotlight来快速打开指定程序，而不是手动去找寻它的快捷方式打开
+
+`cmd` + `space` 打开Spotlight
+
+![](https://i.ibb.co/0mjCPGP/20190710223816.jpg)
