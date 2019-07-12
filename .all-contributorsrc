@@ -1,0 +1,41 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "zhangyuang",
+      "name": "LeonCheung",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17424434?v=4",
+      "profile": "https://github.com/zhangyuang",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jerryYuX",
+      "name": "jerryYu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33367577?v=4",
+      "profile": "https://github.com/jerryYuX",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "fengyy51",
+      "name": "fe_shangcheng",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/23158071?v=4",
+      "profile": "https://github.com/fengyy51",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "fe-dev-playbook",
+  "projectOwner": "ykfe",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
