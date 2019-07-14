@@ -59,9 +59,9 @@ module.exports = {
           'VSCode',
           'Git',
           'Chrome',
-          'Utils',
-          'Mac',
           'Vim',
+          'Mac',
+          'Utils',
         ],
       }]
     }
