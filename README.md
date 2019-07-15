@@ -24,7 +24,7 @@
 - 简单介绍如何使用Mac系统
 - 介绍如何配置使用Vim
 
-![](https://gw.alicdn.com/tfs/TB1dRTWXNv1gK0jSZFFXXb0sXXa-2878-1590.jpg)
+![](https://gw.alicdn.com/tfs/TB13GrCaeL2gK0jSZPhXXahvXXa-2878-1576.jpg)
 
 注：这不是一篇大而全的文档，不会介绍以上工具的所有用法，只会介绍我们日常开发中使用比较多的用法，如果你需要更加全面的学习，你应该去查阅它们的官方文档。如果你觉得本文档对你有帮助，麻烦点个Star✨
 
