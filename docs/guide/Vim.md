@@ -28,7 +28,7 @@
 $ curl -L https://bit.ly/janus-bootstrap | bash
 ```
 
-### 使用jauns
+### 使用janus
 
 这里来说以下个人喜欢的janus的功能
 
