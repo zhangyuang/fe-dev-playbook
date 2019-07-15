@@ -39,7 +39,7 @@ module.exports = {
       })()`,
     ],
   ],
-  description: '打造舒适的前端开发环境',
+  description: '打造舒适高效的前端开发环境',
   themeConfig: {
     nav: [{
         text: '指南',
