@@ -11,5 +11,6 @@
 - [Chrome](./Chrome.md) Chrome的一些配置项
 - [Vim](./Vim.md) 如何配置使用Vim
 - [Mac](./Mac.md) mac系统的一些使用技巧
+- [Linux](./Linux.md) 使用Linux系统的一些命令
 - [Utils](./Utils.md) 实用小工具
 
