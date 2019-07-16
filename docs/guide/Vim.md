@@ -50,7 +50,7 @@ $ curl -L https://bit.ly/janus-bootstrap | bash
 类似于编辑器的形式来便于你查看当前文件夹，在`~/.vimrc`中添加以下设置来通过`F2`启动NERDTree
 
 ```
-$ vim ~/.zshrc
+$ vim ~/.vimrc
 
 25 map <F2> :NERDTreeToggle<CR>
 ```
