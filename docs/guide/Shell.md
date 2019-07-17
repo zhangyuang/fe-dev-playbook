@@ -49,8 +49,6 @@ sidebarDepth: 2
 
 ![](https://gw.alicdn.com/tfs/TB1Fm_RXuH2gK0jSZJnXXaT1FXa-1452-986.jpg)
 
-
-
 ## zsh
 
 > Unix shell，一种壳层与命令行界面，是UNIX操作系统下传统的用户和计算机的交互界面。第一个用户直接输入命令来执行各种各样的任务。

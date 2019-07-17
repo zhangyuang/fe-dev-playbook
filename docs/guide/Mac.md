@@ -1,6 +1,24 @@
-# Mac os
+# Mac
 
 Mac os是目前前端开发者的最常用操作系统没有之一，掌握Mac os的一些技巧对于在Mac os下进行前端开发的开发者来说尤为重要。
+
+## Command-Tab 
+
+`⌘Command-Tab` 几乎是每一个使用电脑的人都会接触到的快捷键组合，使用频率通常很高，主要用于切换应用。系统本身提供的 Command-Tab 功能很基础，但实际上存在不少问题，比如它会默认显示所有正在运行的 App，不管是前台运行还是后台运行的，这就会让整个列表非常冗长。
+
+- 【付费】Contexts https://contexts.co/
+
+## Spotlight
+
+使用Spotlight来快速打开指定程序，而不是手动去找寻它的快捷方式打开
+
+`cmd` + `space` 打开Spotlight
+
+![](https://i.ibb.co/0mjCPGP/20190710223816.jpg)
+
+替代方案
+
+- 【免费】Quicksilver https://contexts.co/
 
 ## 设置Mac手势操作
 
@@ -40,11 +58,3 @@ $ open . // 打开当前文件夹
 触发角可以让我们迅速让电脑休眠而不用手动合上屏幕, 打开 `系统偏好设置` -> `屏幕保护程序` -> `触发角` 当人离开座位时，需要将电脑锁屏以保证代码安全，建议按照下图方式设置触发角
 
 ![](https://img.alicdn.com/tfs/TB1AqoeXUH1gK0jSZSyXXXtlpXa-1224-398.png)
-
-## Spotlight
-
-使用Spotlight来快速打开指定程序，而不是手动去找寻它的快捷方式打开
-
-`cmd` + `space` 打开Spotlight
-
-![](https://i.ibb.co/0mjCPGP/20190710223816.jpg)
