@@ -10,13 +10,13 @@
 
 在本文档中，我们分为以下几个篇章来讲解将要使用到的工具
 
-- [zsh + iterm2](./Shell.md) 如何使用强大的shell，zsh
+- [终端](./Shell.md) 如何配置强大时尚的终端
 - [Node.js](./Nodejs.md) 如何搭建Node.js开发环境
 - [Git](./Git.md) 如何使用git来进行团队合作开发
 - [VS Code](./VSCode.md) 配置契合前端开发的vscode环境以及如何进行断点调试
 - [Chrome](./Chrome.md) Chrome的一些配置项
 - [Vim](./Vim.md) 如何配置使用Vim
 - [Mac](./Mac.md) mac系统的一些使用技巧
-- [Linux](./Linux.md) 使用Linux系统的一些命令
+- [Shell命令](./Command.md) 使用Shell与系统内核交互的一些命令
 - [Utils](./Utils.md) 实用小工具
 

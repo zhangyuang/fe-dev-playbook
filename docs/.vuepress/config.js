@@ -61,7 +61,7 @@ module.exports = {
           'Chrome',
           'Vim',
           'Mac',
-          'Linux',
+          'Command',
           'Utils',
         ],
       }]

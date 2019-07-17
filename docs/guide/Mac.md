@@ -6,7 +6,7 @@ Mac os是目前前端开发者的最常用操作系统没有之一，掌握Mac o
 
 `⌘Command-Tab` 几乎是每一个使用电脑的人都会接触到的快捷键组合，使用频率通常很高，主要用于切换应用。系统本身提供的 Command-Tab 功能很基础，但实际上存在不少问题，比如它会默认显示所有正在运行的 App，不管是前台运行还是后台运行的，这就会让整个列表非常冗长。
 
-- 【付费】Contexts https://contexts.co/
+- 【付费】[Contexts](https://contexts.co/)
 
 ## Spotlight
 
@@ -49,9 +49,9 @@ $ open . // 打开当前文件夹
 
 以下介绍Finder常用快捷键
 
-`cmd` + `shift` + `g` 快速进入指定文件夹  
-`cmd` + `shift` + `h` 进入home目录  
-`cmd` + `shift` + `a` 进入Application目录  
+- `cmd` + `shift` + `g` 快速进入指定文件夹  
+- `cmd` + `shift` + `h` 进入home目录  
+- `cmd` + `shift` + `a` 进入Application目录  
 
 ## 触发角
 

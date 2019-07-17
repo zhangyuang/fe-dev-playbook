@@ -1,20 +1,20 @@
 # VS Code
 
-vscode毫无疑问是目前最强大的编辑器，没有之一，凭借自身丰富的插件体系以及优秀的断点调试能力迅速成为最火热的编辑器。
+VS Code毫无疑问是目前最强大的编辑器，没有之一，凭借自身丰富的插件体系以及优秀的断点调试能力迅速成为最火热的编辑器。
 
-## 安装vscode
+## 安装VS Code
 
 这个不多介绍，直接去[官网](https://code.visualstudio.com/)下载安装包安装
 
 ## code命令
 
-打开 VS Code，打开控制面板（⇧⌘P）,输入 ‘shell command’，在提示里看到 Shell Command: Install 'code' command in PATH，运行它就可以了。
+打开 VS Code，打开控制面板（⇧⌘P）,输入 `shell command`，在提示里看到 Shell Command: Install 'code' command in PATH，运行它就可以了。
 
-然后，在终端里，通过`code .` 或 `code xx`直接打开目录或文件。
+然后，在终端里，通过`code .` 或 `code xx` 直接打开目录或文件。
 
 ## 快捷键
 
-熟练使用vscode快捷键是必备技能
+熟练使用VS Code快捷键是必备技能
 
 ### 左边栏快捷键
 
@@ -32,39 +32,31 @@ vscode毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 
 添加完毕后我们可以通过cmd + 数字键的组合方式来快速切换左边栏
 
-### 快捷打开vscode
-
-`cmd + shift + p` -> `code`
-
-![](https://gw.alicdn.com/tfs/TB11o6_XET1gK0jSZFhXXaAtVXa-988-686.jpg)
-
-在输入框中输入code，来为shell安装code命令，之后通过`code [PATH]` 可以快速用vscode打开一个目录, 例如打开当前目录`code .`
-
 ### 其他快捷键
 
-以下介绍实际使用vscode中经常需要用到的快捷键
+以下介绍实际使用VS Code中经常需要用到的快捷键
 
-`cmd + p` 根据关键字快速打开一个文件  
-`cmd + ,` 打开vscode配置项  
-`cmd + d` 快速选取多个相同的内容块  
-`option + shift + 鼠标左键` 让光标多行选取  
-`cmd + shift + h` 全局替换内容
+- `cmd + p` 根据关键字快速打开一个文件  
+- `cmd + ,` 打开VS Code配置项  
+- `cmd + d` 快速选取多个相同的内容块  
+- `option + shift + 鼠标左键` 让光标多行选取  
+- `cmd + shift + h` 全局替换内容
 
 ## 插件
 
 在这里我们介绍前端开发中需要经常用到的一些插件
 
-`Auto Close Tag` 帮助我们自动闭合标签  
-`Auto Import` 自动找寻import路径, 在开发ts的时候经常用到  
-`Code Spell Checker` 帮助我们检查名词的拼写  
-`GitLens` 展示该代码块的commit信息  
-`Icon Fonts` 为不同的文件设置不同的ICON  
-`JavaScript (ES6) code snippets` 让编辑器自动联想es6语法  
-`Markdown Preview` 预览md文件  
-`StandardJS` JavaScript 代码规范配套的vscode插件，下面我们会介绍为什么使用standardjs而不是eslint  
-`React Standard Style` 同上，在React组件中使用standardjs代码规范  
-`Vetur` 开发Vue组件的辅助工具  
-`Minify` 自动生成经过uglify后的文件  
+- `Auto Close Tag` 帮助我们自动闭合标签  
+- `Auto Import` 自动找寻import路径, 在开发ts的时候经常用到  
+- `Code Spell Checker` 帮助我们检查名词的拼写  
+- `GitLens` 展示该代码块的commit信息  
+- `Icon Fonts` 为不同的文件设置不同的ICON  
+- `JavaScript (ES6) code snippets` 让编辑器自动联想es6语法  
+- `Markdown Preview` 预览md文件  
+- `StandardJS` JavaScript 代码规范配套的VS Code插件，下面我们会介绍为什么使用standardjs而不是eslint  
+- `React Standard Style` 同上，在React组件中使用standardjs代码规范  
+- `Vetur` 开发Vue组件的辅助工具  
+- `Minify` 自动生成经过uglify后的文件  
 
 ### Standardjs
 
@@ -84,12 +76,12 @@ vscode毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 
 #### 更好的使用Standardjs
 
-在vscode安装standardjs插件后，我们还需要进行一些配置来启用standardjs，首先要保证你在全局或者当前目录安装了standard模块，然后
-`cmd + ,` 打开配置，添加`"standard.autoFixOnSave": true, "standard.enable": true,` 来让vscode启用standard，此时在你不符合规范的地方会给你高亮提示，并且开启保存自动格式化功能，在你保存文件时自动格式化你的文件。
+在VS Code安装standardjs插件后，我们还需要进行一些配置来启用standardjs，首先要保证你在全局或者当前目录安装了standard模块，然后
+`cmd + ,` 打开配置，添加`"standard.autoFixOnSave": true, "standard.enable": true,` 来让VS Code启用standard，此时在你不符合规范的地方会给你高亮提示，并且开启保存自动格式化功能，在你保存文件时自动格式化你的文件。
 
 ## 断点调试
 
-使用断点进行debug是我们日常开发中必须要掌握的技巧，比起console更加的高效，vscode对断点调试支持非常好。下面我们来介绍一种通用的使用断点调试Node.js应用的方式。
+使用断点进行debug是我们日常开发中必须要掌握的技巧，比起console更加的高效，VS Code对断点调试支持非常好。下面我们来介绍一种通用的使用断点调试Node.js应用的方式。
 
 ### 调试express应用
 
@@ -104,7 +96,7 @@ $ npm start
 ```
 
 通过以上命令，我们新建了一个express应用并且启动。此时我们来进行debug的配置
-`cmd + 4` 打开vscode debug栏目
+`cmd + 4` 打开VS Code debug栏目
 点击齿轮按钮，打开launch.json
 
 ![](https://gw.alicdn.com/tfs/TB1iKQHXxv1gK0jSZFFXXb0sXXa-1734-628.png)
@@ -117,7 +109,7 @@ $ npm start
 
 ![](https://gw.alicdn.com/tfs/TB1kkIGXAT2gK0jSZFkXXcIQFXa-1438-662.jpg)
 
-浏览器中访问`http://localhost:3000` vscode就能够检测到触发断点，接下来就是我们熟悉的界面
+浏览器中访问`http://localhost:3000` VS Code就能够检测到触发断点，接下来就是我们熟悉的界面
 
 ![](https://gw.alicdn.com/tfs/TB1yHgIXrr1gK0jSZFDXXb9yVXa-1122-436.jpg)
 

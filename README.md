@@ -19,17 +19,17 @@
 
 本文档将会分为以下章节
 
-- 安装配置使用强大的shell，zsh以及现代化终端iterm2
+- 安装配置使用强大的终端
 - 如何搭建Node.js开发环境
 - 如何使用Git来进行团队合作开发
 - 配置契合前端开发的VSCode环境, 以及断点调试方法
 - Chrome的一些使用技巧
 - 简单介绍如何使用Mac系统
-- 简单介绍如何使用Linux系统
+- 简单介绍如何使用Shell命令
 - 介绍如何配置使用Vim
 - 介绍一些实用小工具
 
-![](https://gw.alicdn.com/tfs/TB10aQIaXT7gK0jSZFpXXaTkpXa-2878-1568.jpg)
+![](https://gw.alicdn.com/tfs/TB110_maxn1gK0jSZKPXXXvUXXa-2878-1464.jpg)
 
 注：这不是一篇大而全的文档，不会介绍以上工具的所有用法，只会介绍我们日常开发中使用比较多的用法，如果你需要更加全面的学习，你应该去查阅它们的官方文档。如果你觉得本文档对你有帮助，麻烦点个Star✨
 

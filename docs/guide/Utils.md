@@ -10,8 +10,9 @@ sidebarDepth: 2
 
 [Spectatle](https://www.spectacleapp.com/)一款可以让你更加轻松快速的控制窗口大小的软件。
 快速实现窗口全屏/靠左/靠右/居中等展现形式, 建议快捷键设置如下。  
-`cmd` + `alt` + `enter` 全屏  
-`cmd` + `alt` + `<-` 靠左
+
+- `cmd` + `alt` + `enter` 全屏  
+- `cmd` + `alt` + `<-` 靠左
 
 ![](https://gw.alicdn.com/tfs/TB1ESaBXG67gK0jSZFHXXa9jVXa-1224-1066.jpg)
 
@@ -93,7 +94,7 @@ sidebarDepth: 2
 
 ## 实用网站
 
-[can i use](https://caniuse.com/) 查看一些API的兼容性  
-[Autoprefixer](https://autoprefixer.github.io/) 为css加上浏览器前缀，配套webpack相关插件  
-[在线可视化正则表达式测试网站](https://regexper.com)  
-[在线js编辑器](https://jsfiddle.net/) 
+- [can i use](https://caniuse.com/) 查看一些API的兼容性  
+- [Autoprefixer](https://autoprefixer.github.io/) 为css加上浏览器前缀，配套webpack相关插件  
+- [在线可视化正则表达式测试网站](https://regexper.com)  
+- [在线js编辑器](https://jsfiddle.net/) 
