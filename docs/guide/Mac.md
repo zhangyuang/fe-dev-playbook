@@ -14,11 +14,11 @@ Mac os是目前前端开发者的最常用操作系统没有之一，掌握Mac o
 
 `cmd` + `space` 打开Spotlight
 
-![](https://i.ibb.co/0mjCPGP/20190710223816.jpg)
+![](https://gw.alicdn.com/tfs/TB1g4MFapY7gK0jSZKzXXaikpXa-1362-858.jpg)
 
 替代方案
 
-- 【免费】Quicksilver https://contexts.co/
+- 【免费】[Quicksilver](https://qsapp.com/)
 
 ## 设置Mac手势操作
 
