@@ -50,7 +50,7 @@ $ nrm use taobao // 使用taobao的源作为默认的npm源
 
 ## 实用模块
 
-下面来介绍一种实用的Node.js模块
+下面来介绍一些实用的Node.js模块
 
 ### http-server
 
