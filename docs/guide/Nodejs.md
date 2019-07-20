@@ -76,7 +76,6 @@ const installServer = async () => {
 }
 ```
 
-
 ### mdv
 
 [mdv](https://www.npmjs.com/package/mdv)是一个用来校验markdown语法的npm模块，此模块检测的语法错误类型包括七项：插入图片时是否添加Alt标签，超链接是否包含链接名称，页面内跳转时是否缺失锚点，页面内跳转的地址是否包含#，锚点是否包含#，锚点是否重复定义，json、xml语法是否解析失败。
