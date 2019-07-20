@@ -76,6 +76,56 @@ const installServer = async () => {
 }
 ```
 
+
+### mdv
+
+[mdv](https://www.npmjs.com/package/mdv)是一个用来校验markdown语法的npm模块，此模块检测的语法错误类型包括七项：插入图片时是否添加Alt标签，超链接是否包含链接名称，页面内跳转时是否缺失锚点，页面内跳转的地址是否包含#，锚点是否包含#，锚点是否重复定义，json、xml语法是否解析失败。
+
+#### 使用方式
+
+  1. 使用npm install mdv -g 进行安装
+  2. 利用cd切换到需要校验的markdown文件地址，切记此工具不能检测文件夹
+  3. 输入mdv 文件名 -d等命令，全部的命令如下图所示，其中-d 用来显示错误信息，-s 用来生成与markdown文件对应的html文件， -w 用来显示错误和警告信息。
+  
+  ![](https://img.alicdn.com/tfs/TB1gUZZaQL0gK0jSZFAXXcA9pXa-1144-348.png)
+  
+#### 错误信息测试用例
+
+- 插入图片不添加Alt标签
+  
+![](https://img.alicdn.com/tfs/TB11Sc0aRr0gK0jSZFnXXbRRXXa-1172-98.png)
+![](https://img.alicdn.com/tfs/TB1f7ZWaFP7gK0jSZFjXXc5aXXa-1128-182.png)
+ 
+- 超链接不包含链接名称
+
+![](https://img.alicdn.com/tfs/TB1d5s0aO_1gK0jSZFqXXcpaXXa-532-154.png)
+![](https://img.alicdn.com/tfs/TB1vWKpaebviK0jSZFNXXaApXXa-1142-290.png)
+
+- 页面内跳转缺失锚点(找不到链接跳转的目的地)
+
+![](https://img.alicdn.com/tfs/TB1ltw0aUz1gK0jSZLeXXb9kVXa-1030-276.png)
+![](https://img.alicdn.com/tfs/TB1ywcYaKP2gK0jSZFoXXauIVXa-1136-278.png)
+
+- 锚点是否包含#（锚点可以用标题或者用a标签的name来定义)
+
+![](https://img.alicdn.com/tfs/TB1fc..aRv0gK0jSZKbXXbK2FXa-568-160.png)
+![](https://img.alicdn.com/tfs/TB1TFVXa7L0gK0jSZFAXXcA9pXa-1130-304.png)
+
+- 页面内跳转的地址是否包含#
+  
+![](https://img.alicdn.com/tfs/TB1m9sYaFT7gK0jSZFpXXaTkpXa-960-212.png)
+![](https://img.alicdn.com/tfs/TB1dTsYaRr0gK0jSZFnXXbRRXXa-1128-404.png)
+
+- 锚点是否重复定义
+
+![](https://img.alicdn.com/tfs/TB1giQYaQL0gK0jSZFAXXcA9pXa-766-206.png)
+![](https://img.alicdn.com/tfs/TB14zM.aQL0gK0jSZFtXXXQCXXa-1144-260.png)
+
+- json语法是否解析失败
+  
+![](https://img.alicdn.com/tfs/TB1Y.EYaQL0gK0jSZFxXXXWHVXa-740-268.png)
+![](https://img.alicdn.com/tfs/TB1.rZ.aUz1gK0jSZLeXXb9kVXa-1142-438.png)
+
 ## 使用 npm link 调试模块
 
 熟练的使用npm link可以帮助我们本地调试任何开源项目，当我们的一个项目还没有发布到npmjs.com想在本地测试时，或者当我们想修改React/Vue的源码想在本地测试效果时，我们都需要使用npm link来进行测试。npm link 类似于Linux中的软链接，简单理解可以理解为一个快捷方式。使用方式：
