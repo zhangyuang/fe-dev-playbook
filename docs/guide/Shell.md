@@ -156,36 +156,18 @@ last-working-dir 插件，可以记录上一次退出命令行时候的所在路
 
 ![last-working-dir 示例](https://img.alicdn.com/tfs/TB1U2qGb.Y1gK0jSZFMXXaWcVXa-1500-1024.png)
 
-#### web-search
+#### [web-search](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/web-search)
 
 web-search 集成了程序猿可能会用到的大部分的搜索引擎，在 iterm 中键入`${搜索引擎} ${搜索关键词}`，他可以直接打开对应的网页，缩短了你的搜索路径
 
 例如，输入 `google javascript`，它会在我的浏览器中直接打开 https://www.google.com/search?q=javascript
 
-web-search 支持的搜索引擎如下:
+web-search 常用的搜索引擎如下:
 
 - google
-- bing
-- yahoo
-- duckduckgo
-- startpage
-- yandex
 - github
 - baidu
-- ecosia
-- goodreads
-- qwant
-- givero
 - stackoverflow
-
-#### urltools
-
-urltools 提供了对 URL 编解码的能力，它提供了两个命令 `urlencode`(编码)、`urldecode`(解码)
-
-```
-urlencode https://www.baidu.com // 输入
-https%3A%2F%2Fwww.baidu.com // 输出
-```
 
 ### 进入目录
 
