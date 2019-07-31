@@ -32,13 +32,13 @@ sidebarDepth: 2
 
 以下快捷键与 chrome 快捷键类似，必须熟练使用
 
-* `ctrl` + `a/e` 快速切换到当前正在输入的文本的头部／尾部
-* `ctrl` + `u` 清空当前输入
-* `cmd` + `T` 打开一个新的 iterm2 Tab
-* `cmd` + `方向键` 左右切换 Tab
-* `cmd` + `D` 分屏
-* `cmd` + `K` 清屏
-* `cmd` + `N` 打开一个新的 iterm2 窗口
+- `ctrl` + `a/e` 快速切换到当前正在输入的文本的头部／尾部
+- `ctrl` + `u` 清空当前输入
+- `cmd` + `T` 打开一个新的 iterm2 Tab
+- `cmd` + `方向键` 左右切换 Tab
+- `cmd` + `D` 分屏
+- `cmd` + `K` 清屏
+- `cmd` + `N` 打开一个新的 iterm2 窗口
 
 #### 透明度
 
@@ -63,8 +63,7 @@ zsh 的强大之处随便列举就有以下几点，色彩高亮，命令提示�
 使用 curl 来安装
 
 ``` 
-#
-sh - c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# sh - c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ### 配置主题
@@ -139,7 +138,7 @@ $ gb // 等价于git branch
 
 #### zsh-autosuggestions
 
-它能够根据你的命令历史记录即时提示，个人对它的喜爱程度仅次于 autojump。BTW，每次用同事的电脑我都会想吐槽，还不是因为他没安装 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md) 😏
+它能够根据你的命令历史记录即时提示，个人对它的喜爱程度仅次于 autojump。BTW，每次用同事的电脑我都会想吐槽，还不是因为他没安装 [zsh-autosuggestions]((https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)) 😏
 
 ##### Preview
 
@@ -161,10 +160,10 @@ web-search 集成了程序猿可能会用到的大部分的搜索引擎，在 it
 
 web-search 常用的搜索引擎如下:
 
-- google
-- github
-- baidu
-- stackoverflow
+ - google
+ - github
+ - baidu
+ - stackoverflow
 
 ### 进入目录
 
