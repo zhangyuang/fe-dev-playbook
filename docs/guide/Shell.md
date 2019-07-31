@@ -110,9 +110,9 @@ $ j hub // 如果当前目录不对，可以重复执行该命令，会自动根
 $ d // 会列出你曾经进入过的目录，输入前面的序号可以直接进入该目录
 ```
 
-#### git 插件
+#### [git 插件](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git)
 
-git 插件也是必装的插件，它提供了多种 alias 来简化你的 git 命令，以下几种是会被经常使用的命令，你也可以在.zshrc 中额外添加喜好的 alias
+git 插件也是必装的插件，它提供了百余个 alias 来简化你的 git 命令，alias 列表可访问插件链接查看。以下几种是会被经常使用的命令，你也可以在.zshrc 中额外添加喜好的 alias
 
 ```
 $ g // 等价于git
@@ -126,13 +126,35 @@ $ gb // 等价于git branch
 
 既然 zsh 都已经安排上了，那 zsh 可用命令的高亮显示自然是不能落下
 
+##### 如何安装
+
+见 [INSTALL.md](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+
+##### Preview
+
+使用前：![zsh-syntax-highlighting 使用前](https://img.alicdn.com/tfs/TB1F_iCb4D1gK0jSZFsXXbldVXa-404-62.png)
+
+使用后：![zsh-syntax-highlighting 使用后](https://img.alicdn.com/tfs/TB1H45BbW67gK0jSZFHXXa9jVXa-386-54.png)
+
 #### zsh-autosuggestions
 
 它能够根据你的命令历史记录即时提示，个人对它的喜爱程度仅次于 autojump。BTW，每次用同事的电脑我都会想吐槽，还不是因为他没安装 zsh-autosuggestions 😏
 
+##### 如何安装
+
+见 [INSTALL.md](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+
+##### Preview
+
+<a href="https://asciinema.org/a/37390" target="_blank"><img src="https://asciinema.org/a/37390.png" width="400" /></a>
+
 #### last-working-dir
 
 last-working-dir 插件，可以记录上一次退出命令行时候的所在路径，并且在下一次启动命令行的时候自动恢复到上一次所在的路径。这一切不需要我们进行任何操作，全部都是自动完成的
+
+##### Preview
+
+![last-working-dir 示例](https://img.alicdn.com/tfs/TB1U2qGb.Y1gK0jSZFMXXaWcVXa-1500-1024.png)
 
 #### web-search
 
@@ -174,15 +196,3 @@ https%3A%2F%2Fwww.baidu.com // 输出
 
 \*nix 下的其他 shell 默认可以通过 tab 来实现路径补全，但是功能比起 zsh 的路径补全简直是太简单了。这里我们举一个例子
 `cd /u/l/b` 按下 tab 键自动帮你补全为`cd /usr/local/bin/`
-
-### Alias
-
-alias 可以让我们以更简单、更舒服的方式来输入命令，所以我们可以自定义一些命令，比如通过命令行直接打开 vscode。
-
-在 ~/.zshrc 中添加
-
-```
-alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
-```
-
-在 iterm2 中输入 `code .`，可以直接打开 vscode，并在 vscode 中打开命令行中当前目录
