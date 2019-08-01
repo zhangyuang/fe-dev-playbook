@@ -1,24 +1,40 @@
 {
   "name": "fe-dev-playbook",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "打造舒适的前端开发环境",
-  "main": "index.js",
+  "bin": {
+    "playbook": "index.js",
+    "fe-dev-playbook": "index.js"
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs && npm run publish",
-    "publish": "surge ./docs/.vuepress/dist fe.surge.sh"
+    "docs:build": "vuepress build docs",
+    "docs:publish": "surge ./docs/.vuepress/dist fe.surge.sh",
+    "publish": "npm run docs:build && npm run docs:publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ykfe/fe-dev-playbook.git"
   },
   "author": "ykfe",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ykfe/fe-dev-playbook/issues"
   },
   "homepage": "https://github.com/ykfe/fe-dev-playbook#readme",
   "devDependencies": {
     "vuepress": "^1.0.2"
+  },
+  "engines": {
+    "node": "^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4"
+  },
+  "files": [
+    "index.js",
+    "docs/.vuepress/dist"
+  ],
+  "dependencies": {
+    "finalhandler": "^1.1.2",
+    "open": "^6.4.0",
+    "serve-static": "^1.14.1"
   }
 }
