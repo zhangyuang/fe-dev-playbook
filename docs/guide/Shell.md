@@ -138,7 +138,7 @@ $ gb // 等价于git branch
 
 #### zsh-autosuggestions
 
-它能够根据你的命令历史记录即时提示，个人对它的喜爱程度仅次于 autojump。BTW，每次用同事的电脑我都会想吐槽，还不是因为他没安装 [zsh-autosuggestions]((https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)) 😏
+它能够根据你的命令历史记录即时提示，个人对它的喜爱程度仅次于 autojump。BTW，每次用同事的电脑我都会想吐槽，还不是因为他没安装 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md) 😏
 
 ##### Preview
 
