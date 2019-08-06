@@ -25,4 +25,5 @@ Chrome的[插件商店](https://chrome.google.com/webstore/category/extensions?h
 - [React Developer Tools](https://chrome.google.com/webstore/detail/fmkadmapgofadopljbjfkapdkoienihi) 开发React应用时用的辅助工具，大部分人应该都装了  
 - [Vue.js devtools](https://chrome.google.com/webstore/detail/nhdogjmejiglipccpnnnanhbledajbpd) 同上，开发Vue应用时的辅助工具  
 - [Octotree](https://chrome.google.com/webstore/detail/bkhaagjahfmjljalopjnoealnfndnagc) 方便你查看github项目结构  
+- [OctoLinker](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp) 查看github文件时可以一键打开引入文件的路径  
 - [Allow-Control-Allow-Origin](https://chrome.google.com/webstore/detail/nlfbmbojpeacfghkpbjhddihlkkiljbi) 为不支持跨域请求的接口的响应头加Allow-Control-Allow-Origin: *  
