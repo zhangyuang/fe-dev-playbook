@@ -57,6 +57,7 @@ module.exports = {
           'Shell',
           'Nodejs',
           'VSCode',
+          'BreakingPoint',
           'Git',
           'Chrome',
           'Vim',
