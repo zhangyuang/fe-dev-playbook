@@ -15,13 +15,13 @@ sidebarDepth: 2
 
 下面让我们先来介绍一下大部分场景下如何开启使用本地调试，远程调试方式我们着重介绍在VS Code中如何调试
 
-### node debug
+### node-debug
 
 已废弃被 `node inspect` 代替，不多介绍
 
-### node inspect
+### node-inspect
 
-使用node自带的inspect功能来开启断点调试
+使用Node.js自带的inspect功能来开启断点调试
 
 #### 使用方式
 
@@ -77,7 +77,7 @@ $ node --inspect-brk break.js // 启用debug并在第一行暂停，即默认第
 
 ### 借助 VS Code
 
-借助目前的前端开发第一ide，我们可以很方便的来进行断点调试
+借助目前的前端开发第一工具，我们可以很方便的来进行断点调试
 
 #### 本地调试
 
