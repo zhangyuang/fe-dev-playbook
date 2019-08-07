@@ -63,7 +63,7 @@ zsh 的强大之处随便列举就有以下几点，色彩高亮，命令提示�
 使用 curl 来安装
 
 ``` 
-# sh - c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+$ sh - c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ### 配置主题

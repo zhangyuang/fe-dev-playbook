@@ -18,7 +18,7 @@ $ mv ./a.txt ./b.txt // 重命名当前目录下的a.txt文件
 
 ## find
 
-使用`find`命令可以帮助我们查找符合要求的文件
+使用 `find` 命令可以帮助我们查找符合要求的文件
 
 ```
 $ find ./ -iname "*.js" // 查找当前目录下的所有js文件, 忽略大小写
@@ -43,7 +43,7 @@ $ ack targetCode
 
 ## grep
 
-使用`grep`命令可以帮助我们筛选符合要求的内容
+使用 `grep` 命令可以帮助我们筛选符合要求的内容
 
 ```
 $ grep "browserRouter" -i ./src/entry.tsx // 在当前src目录下的entry.tsx文件中查找browserRouter关键字忽略大小写
