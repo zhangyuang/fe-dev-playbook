@@ -1,6 +1,6 @@
 # Mac
 
-Mac os是目前前端开发者的最常用操作系统没有之一，掌握Mac os的一些技巧对于在Mac os下进行前端开发的开发者来说尤为重要。
+macOS 是目前前端开发者的最常用操作系统没有之一，掌握 macOS 的一些技巧对于在  macOS 下进行前端开发的开发者来说尤为重要。
 
 ## Command-Tab 
 
@@ -10,9 +10,9 @@ Mac os是目前前端开发者的最常用操作系统没有之一，掌握Mac o
 
 ## Spotlight
 
-使用Spotlight来快速打开指定程序，而不是手动去找寻它的快捷方式打开
+使用 Spotlight 来快速打开指定程序，而不是手动去找寻它的快捷方式打开
 
-`cmd` + `space` 打开Spotlight
+`cmd` + `space` 打开 Spotlight
 
 ![](https://gw.alicdn.com/tfs/TB1g4MFapY7gK0jSZKzXXaikpXa-1362-858.jpg)
 
@@ -34,7 +34,7 @@ Mac os是目前前端开发者的最常用操作系统没有之一，掌握Mac o
 
 ## 文件夹操作
 
-使用以下快捷键在 Finder 中打开特殊文件夹，这也是使用Mac系统的必备技能之一。  
+使用以下快捷键在 Finder 中打开特殊文件夹，这也是使用 Mac 系统的必备技能之一。  
 
 ### 快速打开文件夹
 
@@ -50,8 +50,8 @@ $ open . // 打开当前文件夹
 以下介绍Finder常用快捷键
 
 - `cmd` + `shift` + `g` 快速进入指定文件夹  
-- `cmd` + `shift` + `h` 进入home目录  
-- `cmd` + `shift` + `a` 进入Application目录  
+- `cmd` + `shift` + `h` 进入 home 目录  
+- `cmd` + `shift` + `a` 进入 Application 目录  
 
 ## 触发角
 
