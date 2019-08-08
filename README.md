@@ -33,6 +33,16 @@
 
 注：这不是一篇大而全的文档，不会介绍以上工具的所有用法，只会介绍我们日常开发中使用比较多的用法，如果你需要更加全面的学习，你应该去查阅它们的官方文档。如果你觉得本文档对你有帮助，麻烦点个Star✨
 
+## Pull Request
+
+提PR之前一定要先提[issue](https://github.com/ykfe/fe-dev-playbook/issues)与我们交流是否有提的必要或者进入交流群找群主沟通，否则你的PR不一定会被合并
+
+## 交流群
+
+如果你有什么其他的想法或者建议，可以扫码进入钉钉群详细沟通
+
+<img src="https://camo.githubusercontent.com/b2bdf392b85d52b1b54f782a99226ca4d08abcbe/68747470733a2f2f696d672e616c6963646e2e636f6d2f7466732f544231434f4e53636c4745334b566a535a46685858636b614658612d3735302d3939302e6a7067" width="300">
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
