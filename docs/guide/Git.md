@@ -108,3 +108,121 @@ ok,前两次cm信息成功被合并为了一个
 ```
 $ git push origin dev -f // 使用--force来强制push，但你要清楚这可能会导致你的一些commit记录的丢失，所以请仅在个人分支进行该操作
 ```
+
+
+
+## git工作流程示意图
+
+
+
+![](https://img.alicdn.com/tfs/TB1wiukcHr1gK0jSZR0XXbP8XXa-1172-340.png)
+
+备注：
+
+- Workspace：工作区
+- Index / Stage：暂存区
+- Repository：仓库区（或本地仓库）
+- Remote：远程仓库
+
+
+
+## git常用命令总结
+
+### 获取
+
+```
+$ git clone git@... //克隆远端仓库
+
+$ git pull //更新本地文件，拉取远端最新
+```
+
+### 提交
+
+```
+$ git add .  //添加项目（注意后边还有个小点点）
+
+$ git commit -m //提交描述，一般为提交项目+描述
+
+$ git push //提交本地项目到远端
+```
+
+### 分支操作
+
+```
+$ git branch //显示本地分支列表，同时确认当前所在的分支
+
+$ git branch -r //显示远端上的所有分支列表
+
+$ git branch -a //显示本地及远端分支列表，同时确认当前所在的分支
+
+$ git branch xxx //创建名为xxx的分支
+
+$ git checkout xxx // 切换到xxx分支
+
+$ git checkout -b xxx //创建名为xxx的分支，并且切换到aaa分支
+
+$ git checkout - //切换到上一分支
+```
+
+### 分支合并
+
+```
+$ git checkout master //切换到master分支
+
+$ git merge --no--ff xxx // 加--no--ff 参数可以在历史记录中明确地记录本次分支的合并
+
+$ git log --graph //以图表形式查看分支
+```
+
+### 信息查看
+
+```
+$ git status //显示有变更的文件
+
+$ git log //显示当前分支的版本历史
+
+$ git log --stat //显示commit历史，以及每次commit发生变更的文件
+ 
+$ git log -S [keyword] //搜索提交历史，根据关键词
+
+$ git log --follow [file] //显示某个文件的版本历史，包括文件改名
+
+$ git whatchanged [file]
+
+$ git log -p [file] //显示指定文件相关的每一次diff
+
+$ git log -5 --pretty --oneline //显示过去5次提交
+
+$ git shortlog -sn //显示所有提交过的用户，按提交次数排序
+ 
+$ git blame [file] /显示指定文件是什么人在什么时间修改过
+
+$ git diff //显示暂存区和工作区的差异
+
+$ git diff --cached [file] //显示暂存区和上一个commit的差异
+ 
+$ git diff HEAD //显示工作区与当前分支最新commit之间的差异
+
+$ git reflog //显示当前分支的最近几次提交
+```
+
+### 更改提交的操作
+
+```
+$ git reset --hard HEAD^         回退到上个版本
+
+$ git reset --hard HEAD~3        回退到前3次提交之前，以此类推，回退到n次提交之前
+
+$ git reflog //查看仓库的操作日志，找到要推历史的哈希值
+$ git reset --hard commit_id     退到/进到 指定commit的哈希值
+```
+
+### 推进历史
+
+```
+git reflog //查看仓库的操作日志，找到要推历史的哈希值
+
+git checkout master
+
+git reset --hrad ddd //ddd为要推进历史的哈希值
+```
