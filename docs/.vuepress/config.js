@@ -60,6 +60,7 @@ module.exports = {
           'BreakingPoint',
           'Git',
           'Chrome',
+          'Fe',
           'Vim',
           'Mac',
           'Command',
