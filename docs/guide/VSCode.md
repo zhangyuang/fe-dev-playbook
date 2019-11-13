@@ -53,6 +53,76 @@ VS Code毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 * `option + shift + 鼠标左键` 让光标多行选取  
 * `cmd + shift + h` 全局替换内容
 
+## VSCode设置
+
+这里附上个人的VSCode设置，契合绝大多数前端开发的需求，并且忽略不必要的设置防止VSCode CPU占用过高
+
+```
+{
+  "explorer.confirmDelete": false,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabSize": 4,
+  "window.zoomLevel": -1,
+  "eslint.autoFixOnSave": true,
+  "yaml.format.enable": true,
+  "eslint.enable": false,
+  "standard.autoFixOnSave": true,
+  "standard.enable": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "files.associations": {
+    "*.wpy": "vue",
+    "*.html": "html"
+  },
+  "editor.renderControlCharacters": true,
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "vetur.format.options.tabSize": 4,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "wxml": "html"
+  },
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "search.followSymlinks": false,
+  "files.exclude": {
+    // 是否显示这些文件(夹)
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    // "**/node_modules": true,
+    "**/bower_components": true,
+    // "**/dist": true
+},
+"search.exclude": {
+  // 搜索的时候排除的文件夹，视情况开启
+  // "**/node_modules": false,
+},
+"files.watcherExclude": {
+  "**/.git/objects/**": true,
+  "**/.git/subtree-cache/**": true,
+  "**/node_modules/**": true,
+  "**/tmp/**": true,
+  "**/bower_components/**": true,
+  "**/dist/**": true
+},
+  "explorer.confirmDragAndDrop": false,
+  "vetur.format.defaultFormatter.html": "none",
+  "javascript.implicitProjectConfig.experimentalDecorators": true
+}
+
+```
+
 ## 插件
 
 在这里我们介绍前端开发中需要经常用到的一些插件
@@ -69,24 +139,4 @@ VS Code毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 * `Vetur` 开发Vue组件的辅助工具  
 * `Minify` 自动生成经过uglify后的文件  
 
-### Standardjs
-
-这里我们着重介绍一下[Standardjs](https://standardjs.com/readme-zhcn.html)这个代码规范工具，为什么我们使用它而不是eslint呢，这里我引用standardjs官方的介绍
-
-* 无须配置。 史上最便捷的统一代码风格的方式，轻松拥有。
-* 自动代码格式化。 只需运行 standard --fix 从此和脏乱差的代码说再见。
-* 提前发现风格及程序问题。 减少代码审查过程中反反复复的修改过程，节约时间。
-
-如果我不同意某条规则，可以改吗？  
-
-<span style="color:red">不行。制定这套 standard 规范的目的就是让大家都不必再花时间浪费在无谓的代码风格之争上面了。关于缩进该用制表符还是空格这个问题已经争论了很久了，永远也没有答案。争论这个都可以把需求提前写完了。遵循 standard 规范，你就不用再犹豫了，毕竟不管怎样争论总归会选择一种风格的。希望大家也能在个人语义和普适价值上做一个权衡。</span>
-
-如果你非要自己去配置成百上千项的 ESLint 规则，那你可以直接使用 eslint-config-standard 来将个人配置包装在上层。
-
-小贴士：<span style="color:red">选择 standard 然后保持吧。把时间留下来解决其他有意义的问题！(^____^)/</span>
-
-#### 更好的使用Standardjs
-
-在VS Code安装standardjs插件后，我们还需要进行一些配置来启用standardjs，首先要保证你在全局或者当前目录安装了standard模块，然后
- `cmd + ,` 打开配置，添加 `"standard.autoFixOnSave": true, "standard.enable": true,` 来让VS Code启用standard，此时在你不符合规范的地方会给你高亮提示，并且开启保存自动格式化功能，在你保存文件时自动格式化你的文件。
 
