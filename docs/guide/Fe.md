@@ -28,10 +28,10 @@ function jsonpCb (res) {
 }
 ```
 
-#### chrome插件
+#### Chrome插件
 
 [Access-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=zh-CN)
-本质是给接口的response header中添加`Access-Control-Allow-Origin: *`, 通过chrome api实现
+本质是给接口的response header中添加`Access-Control-Allow-Origin: *`, 底层原理是通过Chrome提供的Api来实现
 
 #### Node代理
 
@@ -54,4 +54,38 @@ app.listen(3000)
 
 // fe.js
 fetch('http://api.test.com/getInfo') 替换为 fetch(`http://localhost:3000/api/getInfo`)
+```
+
+## 纯前端下载excel
+
+本节介绍在没有后端服务的情况下如何将数据下载为excel
+使用[sheetJs](https://github.com/SheetJS/sheetjs)
+
+```js
+$ npm install xlxs // <script lang="javascript" src="dist/xlsx.full.min.js"></script>
+
+const filename = 'file.xlsx' // 文件名称
+const data = [
+    {a: 1, b:2, c: 3},
+    {a: 1, b:2, c: 3}
+    {a: 1, b:2, c: 3}
+] // 此时数据为一般接口返回的数据格式，不符合sheetJs要求，需要转换为二维数组
+const dataArr = []
+dataArr.push([
+    'a数据',
+    'b数据',
+    'c数据',
+]) // 第一行表头名称
+data.map(item => {
+    const arr = []
+    for (const i in item) {
+        arr.push(item[i])
+    }
+    dataArr.push(arr)
+})
+const wsName = 'Sheet1' // Excel第一个sheet的名称
+const wb = XLSX.utils.book_new()
+const ws = XLSX.utils.aoa_to_sheet(dataArr)
+XLSX.utils.book_append_sheet(wb, ws, wsName) // 将数据添加到工作薄
+XLSX.writeFile(wb, filename) // 导出Excel
 ```
