@@ -32,6 +32,15 @@ $ g push origin master // 将本地仓库的修改推送到远程origin 仓库�
 
 ![](https://gw.alicdn.com/tfs/TB1c5RSXKL2gK0jSZPhXXahvXXa-1436-1152.jpg)
 
+## 常用命令
+
+```
+$ git reset --hard ^HEAD // 版本回退
+$ git checkout -- [file] // 撤销修改
+$ git stash // 暂存修改
+$ git stash apply // 恢复修改
+```
+
 ## 多人合作开发
 
 如果要开发多人合作项目，我们建议将master分支设置为[protected](https://help.github.com/en/articles/configuring-protected-branches)分支，使得不允许直接在master上提交代码，只能通过PR的形式来合并。如何向项目提交PR请参考[GitHub 的 Pull Request 是指什么意思？](https://www.zhihu.com/question/21682976/answer/79489643)
