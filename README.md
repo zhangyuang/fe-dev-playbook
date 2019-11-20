@@ -49,7 +49,7 @@
 
 如果你有什么其他的想法或者建议，可以扫码进入钉钉群详细沟通
 
-<img src="https://camo.githubusercontent.com/b2bdf392b85d52b1b54f782a99226ca4d08abcbe/68747470733a2f2f696d672e616c6963646e2e636f6d2f7466732f544231434f4e53636c4745334b566a535a46685858636b614658612d3735302d3939302e6a7067" width="300">
+<img src="https://img.alicdn.com/tfs/TB1X1CsnET1gK0jSZFrXXcNCXXa-750-990.jpg" width="300">
 
 ## Contributors ✨
 

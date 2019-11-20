@@ -20,3 +20,8 @@
 * [Shell命令](./Command.md) 使用Shell与系统内核交互的一些命令
 * [Utils](./Utils.md) 实用小工具
 
+## 交流群
+
+如果你有什么其他的想法或者建议，可以扫码进入钉钉群详细沟通
+
+<img src="https://img.alicdn.com/tfs/TB1X1CsnET1gK0jSZFrXXcNCXXa-750-990.jpg" width="300">
