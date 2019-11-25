@@ -39,6 +39,7 @@ $ brew install ack
 
 ```
 $ ack targetCode
+$ ack -i "ICE BUILD" ./node_modules
 ```
 
 ## grep
