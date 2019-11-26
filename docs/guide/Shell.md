@@ -71,9 +71,9 @@ $ sh - c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/
 默认的 zsh 主题是非常丑并且展示的信息也很少的，这里 zsh 提供了多种主题供我们直接使用，当然你可以根据自己的喜欢来编写一个主题，这里我们使用 ys 这个主题。设置方式
 
 ``` 
-$ vim~/.zshrc / / 打开zsh配置文件
+$ vim~/.zshrc // 打开zsh配置文件
 10 ZSH_THEME = "ys" // 在第10行设置当前主题为ys
-$ source~/.zshrc / / 重新执行一遍zsh配置文件
+$ source~/.zshrc // 重新执行一遍zsh配置文件
 ```
 
 ![](https://gw.alicdn.com/tfs/TB1OxHTXAH0gK0jSZPiXXavapXa-1442-870.jpg)
