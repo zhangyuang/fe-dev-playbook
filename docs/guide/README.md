@@ -25,3 +25,10 @@
 如果你有什么其他的想法或者建议，可以扫码进入钉钉群详细沟通
 
 <img src="https://img.alicdn.com/tfs/TB1X1CsnET1gK0jSZFrXXcNCXXa-750-990.jpg" width="300">
+
+## 捐赠
+
+如果您觉得本文档对您有帮助，可以考虑请我们喝一杯咖啡☕️
+<div style="display:flex"><img src="https://gw.alicdn.com/tfs/TB1X1vRouT2gK0jSZFvXXXnFXXa-600-900.jpg" width="200" height="270">
+<img src="https://gw.alicdn.com/tfs/TB1BtPToxz1gK0jSZSgXXavwpXa-1242-1686.jpg" width="200" height="270">
+</div>
