@@ -58,6 +58,7 @@ module.exports = {
           'Nodejs',
           'VSCode',
           'BreakingPoint',
+          'Ts',
           'Git',
           'Chrome',
           'Fe',
