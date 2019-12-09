@@ -118,7 +118,7 @@ VS Code毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 },
   "explorer.confirmDragAndDrop": false,
   "vetur.format.defaultFormatter.html": "none",
-  "javascript.implicitProjectConfig.experimentalDecorators": true
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
 }
 
 ```
@@ -131,7 +131,7 @@ VS Code毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 * `Auto Import` 自动找寻import路径, 在开发ts的时候经常用到  
 * `Code Spell Checker` 帮助我们检查名词的拼写  
 * `GitLens` 展示该代码块的commit信息  
-* `Icon Fonts` 为不同的文件设置不同的ICON  
+* `vscode-icons` 为不同的文件设置不同的ICON  
 * `JavaScript (ES6) code snippets` 让编辑器自动联想es6语法  
 * `Markdown Preview` 预览md文件  
 * `StandardJS` JavaScript 代码规范配套的VS Code插件，下面我们会介绍为什么使用standardjs而不是eslint  
@@ -140,3 +140,12 @@ VS Code毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 * `Minify` 自动生成经过uglify后的文件  
 
 
+## 主题
+
+推荐使用`One Dark Pro`配合`vscode-icons`更佳
+安装后setting添加如下配置开启
+
+```json
+"workbench.colorTheme": "One Dark Pro",
+"workbench.iconTheme": "vscode-icons"
+```
