@@ -8,7 +8,7 @@ TypeScript是一种由微软开发的自由和开源的编程语言。它是Java
 
 ### ts-node
 
-```
+```bash
 $ npm i -g ts-node
 $ npm install -g typescript
 $ ts-node foo.ts
@@ -16,7 +16,7 @@ $ ts-node foo.ts
 
 ### tsc
 
-```
+```bash
 $ npm i --save-dev typescript
 $ npx tsc -p ./tsconfig.json
 ```

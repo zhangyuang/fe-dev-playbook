@@ -22,20 +22,24 @@ VS Code毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 
 添加以下配置
 
-``` 
+```json
 {
     "key": "cmd+1",
     "command": "workbench.view.explorer"
-}, {
+}, 
+{
     "key": "cmd+2",
     "command": "workbench.view.search"
-}, {
+}, 
+{
     "key": "cmd+3",
     "command": "workbench.view.scm"
-}, {
+}, 
+{
     "key": "cmd+4",
     "command": "workbench.view.debug"
-}, {
+}, 
+{
     "key": "cmd+5",
     "command": "workbench.view.extensions"
 }
@@ -57,7 +61,7 @@ VS Code毫无疑问是目前最强大的编辑器，没有之一，凭借自身�
 
 这里附上个人的VSCode设置，契合绝大多数前端开发的需求，并且忽略不必要的设置防止VSCode CPU占用过高
 
-```
+```json
 {
   "explorer.confirmDelete": false,
   "emmet.triggerExpansionOnTab": true,

@@ -97,7 +97,7 @@ XLSX.writeFile(wb, filename) // 导出Excel
 
 ### Standardjs
 
-```
+```bash
 $ npm i -g standard@13.0.0
 ```
 

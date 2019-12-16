@@ -40,9 +40,9 @@ macOS 是目前前端开发者的最常用操作系统没有之一，掌握 macO
 
 建议使用 `autojump + open` 来快速打开一个文件夹
 
-``` 
-$ j lib // 进入 /usr/local/lib
-$ open. // 打开当前文件夹
+```bash
+$ j lib # 进入 /usr/local/lib
+$ open. # 打开当前文件夹
 ```
 
 ### Finder快捷键 

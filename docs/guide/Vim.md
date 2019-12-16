@@ -4,7 +4,7 @@
 
 ## 在终端里使用vi
 
-```
+```bash
 $ set -o vi
 ```
 
@@ -32,7 +32,7 @@ $ set -o vi
 
 ### 安装janus
 
-```
+```bash
 $ curl -L https://bit.ly/janus-bootstrap | bash
 ```
 
@@ -57,7 +57,7 @@ $ curl -L https://bit.ly/janus-bootstrap | bash
 
 类似于编辑器的形式来便于你查看当前文件夹，在`~/.vimrc`中添加以下设置来通过`F2`启动NERDTree
 
-```
+```bash
 $ vim ~/.vimrc
 
 25 map <F2> :NERDTreeToggle<CR>

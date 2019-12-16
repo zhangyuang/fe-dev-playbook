@@ -61,9 +61,9 @@ $ node inspect break.js
 
 #### 使用方式
 
-``` 
-$ node --inspect break.js // 启用debug
-$ node --inspect-brk break.js // 启用debug并在第一行暂停，即默认第一行设置了断点，建议使用这种方式来启动
+```bash
+$ node --inspect break.js # 启用debug
+$ node --inspect-brk break.js # 启用debug并在第一行暂停，即默认第一行设置了断点，建议使用这种方式来启动
 ```
 
 打开 `chrome://inspect/#devices` , 进入到熟悉的界面，此时是 `远程调试` 模式
@@ -86,7 +86,7 @@ $ node --inspect-brk break.js // 启用debug并在第一行暂停，即默认第
 ![](https://img.alicdn.com/tfs/TB1e8sMcrH1gK0jSZFwXXc7aXXa-1364-668.png)
 生成如下调试配置
 
-``` 
+``` json
 {
     "version": "0.2.0",
     "configurations": [{
@@ -106,7 +106,7 @@ $ node --inspect-brk break.js // 启用debug并在第一行暂停，即默认第
 
 这里我们以express应用为例，我们在本地新建项目并且启动服务
 
-``` 
+``` bash
 $ npm install express-generator -g
 $ express --view=pug myapp
 $ cd myapp

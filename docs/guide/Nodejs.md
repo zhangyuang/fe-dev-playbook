@@ -8,13 +8,13 @@
 
 ### 安装nvm
 
-```
+```bash
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
 
 ### 添加环境变量
 
-```
+```bash
 $ vim ~/.zshrc
 
 在尾部添加以下配置
@@ -25,11 +25,11 @@ export NVM_DIR="$HOME/.nvm"
 
 ### 使用命令
 
-```
-$ nvm ls-remote // 列出所有支持的Node.js版本
-$ nvm ls // 列出本地已安装的Node.js版本
-$ nvm install 11.5.0 // 安装指定的Node.js版本
-$ nvm alias default 11 // 设置默认使用的版本
+```bash
+$ nvm ls-remote # 列出所有支持的Node.js版本
+$ nvm ls # 列出本地已安装的Node.js版本
+$ nvm install 11.5.0 # 安装指定的Node.js版本
+$ nvm alias default 11 # 设置默认使用的版本
 ```
 
 ## nrm
@@ -38,15 +38,15 @@ $ nvm alias default 11 // 设置默认使用的版本
 
 ### 安装nrm
 
-```
+```bash
 $ npm install -g nrm
 ```
 
 ### 使用命令
 
-```
-$ nrm ls // 列出当前支持切换的源
-$ nrm use taobao // 使用taobao的源作为默认的npm源
+```bash
+$ nrm ls # 列出当前支持切换的源
+$ nrm use taobao # 使用taobao的源作为默认的npm源
 ```
 
 ## 实用模块
@@ -59,9 +59,9 @@ $ nrm use taobao // 使用taobao的源作为默认的npm源
 
 #### 如何使用http-server
 
-```
-$ npm install http-server -g // 安装http-server模块
-$ http-server . -p 8080 // 监听8080端口，以当前目录作为静态资源目录
+```bash
+$ npm install http-server -g # 安装http-server模块
+$ http-server . -p 8080 # 监听8080端口，以当前目录作为静态资源目录
 ```
 
 ### cloc
@@ -93,10 +93,10 @@ const installServer = async () => {
 
 #### 安装使用
 
-```
+```bash
 $ npm i -g mdv
-$ mdv xxx.md -d // 检测md文件语法
-$ mdv xxx.md -s // 根据md生成html
+$ mdv xxx.md -d # 检测md文件语法
+$ mdv xxx.md -s # 根据md生成html
 ```
 
 #### 错误类型
