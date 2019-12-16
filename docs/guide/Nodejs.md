@@ -57,12 +57,22 @@ $ nrm use taobao // 使用taobao的源作为默认的npm源
 
 使用[http-server](https://www.npmjs.com/package/http-server)我们可以快速的创建一个本地http server服务，并且托管我们当前目录作为静态资源文件夹而不用特地去用Node.js框架来搭建一个静态资源服务
 
-#### 使用http-server
+#### 如何使用http-server
 
 ```
 $ npm install http-server -g // 安装http-server模块
 $ http-server . -p 8080 // 监听8080端口，以当前目录作为静态资源目录
 ```
+
+### cloc
+
+使用cloc 快速统计某文件夹下代码的数据, 更多参考资料查看[代码统计利器 Cloc](https://www.hi-linux.com/posts/4004.html)
+
+```bash
+$ npm i -g cloc
+$ cloc --exclude-dir=node_modules . --exclude-ext=json,html # 统计文件类型，排除node_modules,排除json，html文件
+```
+![cloc](https://img.alicdn.com/tfs/TB1kYu2qND1gK0jSZFsXXbldVXa-1136-950.jpg)
 
 ### promisify
 
