@@ -66,6 +66,7 @@ module.exports = {
           'Mac',
           'Command',
           'Utils',
+          'Tips'
         ],
       }]
     }
