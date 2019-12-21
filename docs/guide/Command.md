@@ -77,3 +77,21 @@ $ kill -9 pid # 根据进程pid来将进程强制退出
 ```bash
 $ ps | grep -i "node" | awk '{print $2}' | xargs kill -9 
 ```
+
+## tree 列出文件夹结构
+
+大部分框架的文档都是使用tree命令来列出目录结构示例,更多功能查看[文档](https://wangchujiang.com/linux-command/c/tree.html)
+
+```bash
+$ tree -L 2 -I 'node_modules' # 目录结构层级为2，忽略node_modules
+├── app.js
+├── dist
+├── f.yml
+├── package.json
+└── src
+    ├── detail
+    ├── index
+    └── layout
+    
+```
+
