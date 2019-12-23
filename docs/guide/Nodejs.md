@@ -73,6 +73,27 @@ $ npx jest # 直接调用node_modules中的jest而不需要手动编写npm scrip
 $ npx create-react-app app # npx 将create-react-app下载到一个临时目录，使用以后再删除。使得你不需要全局安装
 ```
 
+### optimist
+
+用于解析命令行参数
+
+```js
+var argv = require('optimist').argv;
+ 
+if (argv.rif - 5 * argv.xup > 7.138) {
+    console.log('Buy more riffiwobbles');
+}
+else {
+    console.log('Sell the xupptumblers');
+}
+```
+
+### yargs 
+
+用于开发命令行工具
+
+![](https://raw.githubusercontent.com/yargs/yargs/master/screen.png)
+
 ### cloc
 
 使用cloc 快速统计某文件夹下代码的数据, 更多参考资料查看[代码统计利器 Cloc](https://www.hi-linux.com/posts/4004.html)
