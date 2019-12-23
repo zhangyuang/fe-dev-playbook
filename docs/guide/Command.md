@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 2
+sidebarDepth: 3
 ---
 
 # Shell命令
@@ -16,7 +16,7 @@ $ mv ./a.txt ../b.txt # 将当前目录下的a.txt文件移动到上级目录并
 $ mv ./a.txt ./b.txt # 重命名当前目录下的a.txt文件
 ```
 
-## find
+### find
 
 使用 `find` 命令可以帮助我们查找符合要求的文件
 
@@ -25,7 +25,7 @@ $ find ./ -iname "*.js" # 查找当前目录下的所有js文件, 忽略大小�
 $ find ./ -size +25k  # 查找当前目录下文件大小大于25kb的文件
 ```
 
-## ack
+### ack
 
 find的功能是比较弱的，对全文检索有心无力，ack是更好的搜索代码神器
 
@@ -42,7 +42,7 @@ $ ack targetCode
 $ ack -i "ICE BUILD" ./node_modules
 ```
 
-## grep
+### grep
 
 使用 `grep` 命令可以帮助我们筛选符合要求的内容
 
@@ -50,7 +50,7 @@ $ ack -i "ICE BUILD" ./node_modules
 $ grep "browserRouter" -i ./src/entry.tsx # 在当前src目录下的entry.tsx文件中查找browserRouter关键字忽略大小写
 ```
 
-## awk 
+### awk 
 
 通过awk命令我们可以筛选出符合要求的行或者列数据  
 
@@ -95,3 +95,10 @@ $ tree -L 2 -I 'node_modules' # 目录结构层级为2，忽略node_modules
     
 ```
 
+## time
+
+time命令用于统计给定命令所花费的总时间。更多信息查看[文档](https://man.linuxde.net/time)
+
+```bash
+$ time ls
+```
