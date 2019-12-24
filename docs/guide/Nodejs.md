@@ -53,6 +53,15 @@ $ nrm use taobao # 使用taobao的源作为默认的npm源
 
 下面来介绍一些实用的Node.js模块
 
+### dclone
+
+[dclone](https://github.com/zhangyuang/dclone)用来下载某个特定的github仓库的文件夹，而不是下载整个项目，可以缩短你的下载时间
+
+```bash
+$ npm i -g dclone
+$ dclone https://github.com/ykfe/egg-react-ssr/tree/dev/example/ssr-with-loadable
+```
+
 ### http-server
 
 使用[http-server](https://www.npmjs.com/package/http-server)我们可以快速的创建一个本地http server服务，并且托管我们当前目录作为静态资源文件夹而不用特地去用Node.js框架来搭建一个静态资源服务
