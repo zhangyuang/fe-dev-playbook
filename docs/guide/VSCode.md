@@ -68,7 +68,7 @@ VS Code 毫无疑问是目前最强大的编辑器，没有之一，凭借自身
   "editor.tabSize": 4,
   "window.zoomLevel": -1,
   "eslint.enable": false,
-  "editor.formatOnSave": true,
+  "standard.autoFixOnSave": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
@@ -117,7 +117,10 @@ VS Code 毫无疑问是目前最强大的编辑器，没有之一，凭借自身
   },
   "explorer.confirmDragAndDrop": false,
   "vetur.format.defaultFormatter.html": "none",
-  "javascript.implicitProjectConfig.experimentalDecorators": true
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true
 }
 ```
 
