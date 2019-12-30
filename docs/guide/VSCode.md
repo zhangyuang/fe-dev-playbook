@@ -67,7 +67,7 @@ VS Code 毫无疑问是目前最强大的编辑器，没有之一，凭借自身
   "emmet.triggerExpansionOnTab": true,
   "editor.tabSize": 4,
   "window.zoomLevel": -1,
-  "eslint.enable": false,
+  "stylelint.autoFixOnSave": true,
   "standard.autoFixOnSave": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "gitlens.advanced.messages": {
@@ -82,7 +82,6 @@ VS Code 毫无疑问是目前最强大的编辑器，没有之一，凭借自身
     "vue-html": "html",
     "vue": "html"
   },
-  "vetur.format.options.tabSize": 4,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "wxml": "html"
@@ -116,11 +115,11 @@ VS Code 毫无疑问是目前最强大的编辑器，没有之一，凭借自身
     "**/dist/**": true
   },
   "explorer.confirmDragAndDrop": false,
-  "vetur.format.defaultFormatter.html": "none",
   "javascript.implicitProjectConfig.experimentalDecorators": true,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vscode-icons",
-  "vsicons.dontShowNewVersionMessage": true
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.settings.editor": "json"
 }
 ```
 
@@ -137,7 +136,7 @@ VS Code 毫无疑问是目前最强大的编辑器，没有之一，凭借自身
 - `JavaScript (ES6) code snippets` 让编辑器自动联想 es6 语法
 - `Markdown Preview` 预览 md 文件
 - `StandardJS` JavaScript 代码规范配套的 VS Code 插件，下面我们会介绍为什么使用 standardjs 而不是 eslint
-- `stylelint` 配合"extends": "stylelint-config-standard"，所有的规范都按 standard 的来
+- `stylelint-plus` 配合"extends": "stylelint-config-standard"，所有的规范都按 standard 的来
 - `React Standard Style` 同上，在 React 组件中使用 standardjs 代码规范
 - `Minify` 自动生成经过 uglify 后的文件
 
