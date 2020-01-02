@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # TypeScript
 
 TypeScript是一种由微软开发的自由和开源的编程语言。它是JavaScript的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程
@@ -44,4 +48,44 @@ $ npx tsc -p ./tsconfig.json
         }
     ]
   }
+```
+
+## TypeScript 知识点收集
+
+本章介绍一些编写TS代码中比较重要的知识点
+
+### 泛型
+
+本节介绍在使用泛型中的一些常见的用法
+
+#### 泛型约束
+
+使得Foo类型传入的对象必须包含在接口Initial的属性之中
+
+```ts
+interface Initial {
+    foo:string
+}
+
+type Foo <T extends Initial> = {
+    [key in keyof T]: T[key]
+}
+
+type Bar = Foo<{foo:string}>
+```
+
+#### 参数扩展
+
+通过此方式，我们可以设置一些默认的接口参数，然后通过泛型的方式，来让调用者可以扩展默认的接口
+
+```ts
+interface Initial {
+    foo:string
+}
+
+type Foo <T = {}> = T & {
+    [key in keyof Initial]: Initial[key]
+}
+
+type Bar = Foo<{bar:string}>
 ```

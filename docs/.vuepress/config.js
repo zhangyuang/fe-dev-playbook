@@ -58,7 +58,7 @@ module.exports = {
           'Nodejs',
           'VSCode',
           'BreakingPoint',
-          'Ts',
+          'TS',
           'Git',
           'Chrome',
           'Fe',
@@ -66,7 +66,8 @@ module.exports = {
           'Mac',
           'Command',
           'Utils',
-          'Tips'
+          'Tips',
+          'Rxjs'
         ],
       }]
     }
