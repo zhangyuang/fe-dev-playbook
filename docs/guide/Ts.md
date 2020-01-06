@@ -56,7 +56,7 @@ $ npx tsc -p ./tsconfig.json
 
 ### 泛型
 
-本节介绍在使用泛型中的一些常见的用法
+个人简单理解泛型就是让我们可以像函数一样接收一个参数来动态的设置类型，本节收集整理在泛型的使用过程中的一些高级用法
 
 #### 泛型约束
 
@@ -88,4 +88,81 @@ type Foo <T = {}> = T & {
 }
 
 type Bar = Foo<{bar:string}>
+```
+
+#### 复合类型转Map
+
+```ts
+type Union = 'a' | 'b' | 'c'
+
+type UnionToMap = {
+    [key in Union]: string
+}
+```
+
+#### Map转复合类型
+
+```ts
+type MyMap = {
+    foo:string
+    bar:number
+}
+
+type MapToUnion = MyMap[keyof MyMap] // string|number
+```
+
+#### 类型转换为Optional
+
+```ts
+interface Foo {
+    foo:string
+    bar:string
+}
+
+type Optional <T>= { [key in keyof T]?: T[key] }
+
+type OptionalFoo = Optional<Foo>
+```
+
+#### 类型转换为readonly
+
+```ts
+interface Foo {
+    foo:string
+    bar:string
+}
+
+type Optional <T>= { readonly [key in keyof T]: T[key] }
+
+type OptionalFoo = Optional<Foo>
+```
+
+#### 接收多个参数，Union转Map
+
+```ts
+type Foo<T extends keyof any, O> = { [key in T]: O}
+
+type Size = 'small' | 'default' | 'big'
+
+type SizeMap = Foo<Size, number>
+
+```
+
+#### 递归添加readonly
+
+```ts
+type DeepReadony<T> = {
+    readonly [P in keyof T]: DeepReadony<T[P]>
+}
+
+interface SomeObject {
+  a: {
+    b: {
+      c: number;
+    };
+  };
+}
+
+const obj: DeepReadony<SomeObject> = { a: { b: { c: 2 } } };
+
 ```
