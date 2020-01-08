@@ -32,8 +32,10 @@
 - 介绍如何配置使用Vim
 - 使用TypeScript中的一些高级知识点
 - 介绍一些实用小工具
+- 介绍函数式编程
+- 介绍函数式编程和响应式编程的结合库Rxjs
 
-![](https://img.alicdn.com/tfs/TB1dXRstkY2gK0jSZFgXXc5OFXa-2878-1582.jpg)
+![](https://img.alicdn.com/tfs/TB1uCRotuL2gK0jSZPhXXahvXXa-2878-1580.jpg)
 
 注：这不是一篇大而全的文档，不会介绍以上工具的所有用法，只会介绍我们日常开发中使用比较多的用法贵精不贵多，如果你需要更加全面的学习，你应该去查阅它们的官方文档。如果你觉得本文档对你有帮助，麻烦点个Star✨
 
