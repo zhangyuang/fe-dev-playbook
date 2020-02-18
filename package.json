@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "finalhandler": "^1.1.2",
-    "open": "^6.4.0",
+    "open": "^7.0.2",
     "serve-static": "^1.14.1"
   }
 }
