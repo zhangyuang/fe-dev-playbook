@@ -2,7 +2,7 @@
 
 # 打造舒适的前端开发环境
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors) [![Greenkeeper badge](https://badges.greenkeeper.io/ykfe/fe-dev-playbook.svg)](https://greenkeeper.io/)
 
 本文档旨在讲述如何打造一个时尚的开发环境侧重于前端但不局限于前端，旨在为刚融入团队的新同学可以迅速follow团队的开发规范，了解并熟练使用常见的开发工具，可以大大的提升我们的工作效率。
 
