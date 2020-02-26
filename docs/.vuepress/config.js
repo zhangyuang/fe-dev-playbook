@@ -68,6 +68,7 @@ module.exports = {
           'Utils',
           'Tips',
           'FP',
+          'Algorithm',
           'Rxjs'
         ],
       }]
