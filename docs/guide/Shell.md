@@ -175,3 +175,8 @@ web-search 常用的搜索引擎如下:
 \*nix 下的其他 shell 默认可以通过 tab 来实现路径补全，但是功能比起 zsh 的路径补全简直是太简单了。这里我们举一个例子
  `cd /u/l/b` 按下 tab 键自动帮你补全为 `cd /usr/local/bin/` 
 
+## 日常工作顺序
+
+这一套操作是本人日常使用的最频繁的操作，必须要熟练使用一气呵成。
+
+`alt + space` （唤醒iterm2） + `cmd + T` (建立新的iterm2窗口) + `j hub `(使用autojump的j命令快速跳转到github目录 ) + `code .` (在vscode打开) +  `spectatle`( cmd + alt + enter = 窗口全屏)
