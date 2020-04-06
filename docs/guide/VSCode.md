@@ -125,15 +125,11 @@ VS Code 毫无疑问是目前最强大的编辑器，没有之一，凭借自身
 
 ## 插件
 
-在这里我们介绍前端开发中需要经常用到的一些插件
+在这里我们介绍前端开发中需要经常用到的一些插件,很多插件的功能VSCode已经内置了，我们安装之前需要查询一下相关资料不要重复安装使得臃肿
 
-- `Document This` 一键生成函数块级注释
-- `Auto Close Tag` 帮助我们自动闭合标签
-- `Auto Import` 自动找寻 import 路径, 在开发 ts 的时候经常用到
 - `Code Spell Checker` 帮助我们检查名词的拼写
 - `GitLens` 展示该代码块的 commit 信息
 - `vscode-icons` 为不同的文件设置不同的 ICON
-- `JavaScript (ES6) code snippets` 让编辑器自动联想 es6 语法
 - `Markdown Preview` 预览 md 文件
 - `StandardJS` JavaScript 代码规范配套的 VS Code 插件，下面我们会介绍为什么使用 standardjs 而不是 eslint
 - `stylelint-plus` 配合"extends": "stylelint-config-standard"，所有的规范都按 standard 的来
