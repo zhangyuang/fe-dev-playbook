@@ -67,7 +67,8 @@ module.exports = {
           'Command',
           'Utils',
           'Tips',
-          'Algorithm'
+          'Algorithm',
+          'Github'
         ]
       }]
     }
