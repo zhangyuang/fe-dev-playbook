@@ -97,6 +97,6 @@ sidebarDepth: 2
 * [can i use](https://caniuse.com/) 查看一些API的兼容性  
 * [中文版的lighthouse](https://developers.google.com/speed/pagespeed/insights/) 测试网页性能
 * [Autoprefixer](https://autoprefixer.github.io/) 为css加上浏览器前缀，配套webpack相关插件  
-* [在线可视化正则表达式测试网站](https://regexper.com)  
-* [在线js编辑器](https://jsfiddle.net/) 
+* [在线可视化正则表达式测试网站](https://regexper.com)（需要科学上网）
+* [在线js编辑器](https://jsfiddle.net/)（需要科学上网）
 
