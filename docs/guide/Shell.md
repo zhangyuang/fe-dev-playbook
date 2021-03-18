@@ -95,7 +95,7 @@ $ vim ~/.zshrc
 63  autojump 
 64 )
 
-$ source~/.zshrc
+$ source ~/.zshrc
 ```
 
 ##### 使用 autojump
