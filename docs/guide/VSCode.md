@@ -18,7 +18,7 @@ VS Code 毫无疑问是目前最强大的编辑器，没有之一，凭借自身
 
 ### 左边栏快捷键
 
-`cmd + k + s` -> `keybinds.json`
+`cmd + k, cmd + s` -> 点击右上角工具栏第二个按钮(打开键盘快捷方式(JSON))-> `keybinds.json`
 
 添加以下配置
 
