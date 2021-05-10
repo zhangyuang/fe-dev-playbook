@@ -118,7 +118,7 @@ git 插件也是必装的插件，它提供了百余个 alias 来简化你的 gi
 $ g # 等价于git
 $ ga # 等价于git add
 $ gcmsg "" # 等价于git commit -m ""
-$ gco # 等价与git check out
+$ gco # 等价与git checkout
 $ gb # 等价于git branch
 ```
 
