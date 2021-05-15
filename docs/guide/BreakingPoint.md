@@ -93,7 +93,9 @@ $ node --inspect-brk break.js # 启用debug并在第一行暂停，即默认第�
         "type": "node",
         "request": "launch",
         "name": "Launch Program",
-        "program": "${workspaceFolder}/break.js" // 选择工作目录下的break.js
+        "program": "${workspaceFolder}/break.js", // 选择工作目录下的break.js
+        // "program": "${file}" 使用变量来获取当前打开的文件
+
     }]
 }
 ```
