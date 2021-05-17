@@ -56,7 +56,8 @@ fe
 
 如果你有什么其他的想法或者建议，可以扫码进入钉钉群详细沟通
 
-<img src="https://img.alicdn.com/tfs/TB1X1CsnET1gK0jSZFrXXcNCXXa-750-990.jpg" width="300">
+
+<img src="https://res.wx.qq.com/op_res/rrhdxU0o2yUdgTjwgkAgO-CSFV-lArvMYzWzxl2SuvnKkcWECv7SXswEYjk2pPcDcL43r0kz_MIp_fsxPPqQ2Q" width="300">
 
 ## Contributors ✨
 
