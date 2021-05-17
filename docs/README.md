@@ -16,7 +16,7 @@ footer: MIT Licensed | Copyright © 2019-present YKFE 版权所有
 
 | Pull Request                                                | Github Issue                                            | 钉钉群                                                                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [fe-dev-playbook/pulls](https://github.com/ykfe/fe-dev-playbook/pulls) | [fe-dev-playbook/issues](https://github.com/ykfe/fe-dev-playbook/issues) | <img src="https://img.alicdn.com/tfs/TB15zfha79E3KVjSZFGXXc19XXa-750-990.jpg" width="60" /> |
+| [fe-dev-playbook/pulls](https://github.com/ykfe/fe-dev-playbook/pulls) | [fe-dev-playbook/issues](https://github.com/ykfe/fe-dev-playbook/issues) | <img src="https://res.wx.qq.com/op_res/rrhdxU0o2yUdgTjwgkAgO-CSFV-lArvMYzWzxl2SuvnKkcWECv7SXswEYjk2pPcDcL43r0kz_MIp_fsxPPqQ2Q" width="60" /> |
 
 
 
