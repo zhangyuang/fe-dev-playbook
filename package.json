@@ -11,7 +11,7 @@
     "docs:build": "vuepress build docs",
     "docs:publish": "surge ./docs/.vuepress/dist fe.surge.sh",
     "publish": "npm run docs:build && npm run docs:publish",
-    "deploy": "rm -rf build/* && npm run docs:build && cp -r docs/.vuepress/dist/* ./build && midway-bin deploy --skipBuild",
+    "deploy": "rm -rf build && mkdir build && npm run docs:build && cp -r docs/.vuepress/dist/* ./build && midway-bin deploy --skipBuild",
     "lint": "eslint . --ext .js,.tsx,.ts,.vue --cache",
     "lint:fix": "eslint . --ext .js,.tsx,.ts,.vue --cache --fix"
   },

@@ -19,4 +19,9 @@ footer: MIT Licensed | Copyright © 2019-present YKFE 版权所有
 | [fe-dev-playbook/pulls](https://github.com/ykfe/fe-dev-playbook/pulls) | [fe-dev-playbook/issues](https://github.com/ykfe/fe-dev-playbook/issues) | <img src="https://res.wx.qq.com/op_res/rrhdxU0o2yUdgTjwgkAgO-CSFV-lArvMYzWzxl2SuvnKkcWECv7SXswEYjk2pPcDcL43r0kz_MIp_fsxPPqQ2Q" width="60" /> |
 
 
+若微信二维码过期，请去 [ssr](https://github.com/ykfe/ssr) 项目获取最新二维码
 
+
+## 技术支持
+
+技术支持 By [地球上没有对手的 ssr 框架](https://github.com/ykfe/ssr)

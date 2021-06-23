@@ -14,8 +14,6 @@
 
 ## 原则
 
-fe
-
 1. 熟练使用快捷键和系统命令是程序员的基本操守
 2. 合理的使用现代化工具能够帮助我们提升开发效率
 3. 打造干净的开发体验, 不要让你的设备用起来很别扭
@@ -62,8 +60,16 @@ fe
 
 如果你有什么其他的想法或者建议，可以扫码进入钉钉群详细沟通
 
-
+<div style="display:flex">
 <img src="https://res.wx.qq.com/op_res/rrhdxU0o2yUdgTjwgkAgO-CSFV-lArvMYzWzxl2SuvnKkcWECv7SXswEYjk2pPcDcL43r0kz_MIp_fsxPPqQ2Q" width="300">
+<img src="https://res.wx.qq.com/op_res/kWmJUok0vZk00qUGxVc9hceBtBTw8ohXkzmm54alPw_uqFEoZt0bWxHPAqHKFSJMrfPkKJZCVJauuZm4--hnrQ" width="300">
+</div>
+
+若微信二维码过期，请去 [ssr](https://github.com/ykfe/ssr) 项目获取最新二维码
+
+## 技术支持
+
+技术支持 By [地球上没有对手的 ssr 框架](https://github.com/ykfe/ssr)
 
 ## Contributors ✨
 

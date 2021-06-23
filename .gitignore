@@ -13,3 +13,5 @@ es
 lib
 
 .serverless
+
+build

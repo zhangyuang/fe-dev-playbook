@@ -25,3 +25,6 @@
 如果你有什么其他的想法或者建议，可以扫码进入钉钉群详细沟通
 
 <img src="https://res.wx.qq.com/op_res/rrhdxU0o2yUdgTjwgkAgO-CSFV-lArvMYzWzxl2SuvnKkcWECv7SXswEYjk2pPcDcL43r0kz_MIp_fsxPPqQ2Q" width="300">
+<img src="https://res.wx.qq.com/op_res/kWmJUok0vZk00qUGxVc9hceBtBTw8ohXkzmm54alPw_uqFEoZt0bWxHPAqHKFSJMrfPkKJZCVJauuZm4--hnrQ" width="300">
+
+若微信二维码过期，请去 [ssr](https://github.com/ykfe/ssr) 项目获取最新二维码
