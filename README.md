@@ -2,7 +2,7 @@
 
 ## 在线地址变更
 
-文档的在线地址已从 `surge` 服务变更为 `serverless` 形式部署阿里云服务。稳定性更佳，再用不用怕无法打开了
+文档的在线地址已从 `surge` 服务变更为 `serverless` 形式部署阿里云服务。稳定性更佳，再也不用怕无法打开了
 
 在线地址: [http://fe.ssr-fc.com/](http://fe.ssr-fc.com/)
 
