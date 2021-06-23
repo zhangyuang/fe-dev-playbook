@@ -7,10 +7,13 @@
     "fe-dev-playbook": "index.js"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:publish": "surge ./docs/.vuepress/dist fe.surge.sh",
-    "publish": "npm run docs:build && npm run docs:publish"
+    "publish": "npm run docs:build && npm run docs:publish",
+    "deploy": "rm -rf build/* && npm run docs:build && cp -r docs/.vuepress/dist/* ./build && midway-bin deploy --skipBuild",
+    "lint": "eslint . --ext .js,.tsx,.ts,.vue --cache",
+    "lint:fix": "eslint . --ext .js,.tsx,.ts,.vue --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -23,18 +26,12 @@
   },
   "homepage": "https://github.com/ykfe/fe-dev-playbook#readme",
   "devDependencies": {
+    "@midwayjs/cli": "^1.2.36",
+    "@midwayjs/cli-plugin-faas": "^1.2.72",
+    "cross-env": "^7.0.3",
+    "eslint-config-standard-vue-ts": "^1.0.5",
+    "typescript": "^3.9.7",
+    "optimize-css-assets-webpack-plugin": "5.0.4",
     "vuepress": "^1.0.2"
-  },
-  "engines": {
-    "node": "^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4"
-  },
-  "files": [
-    "index.js",
-    "docs/.vuepress/dist"
-  ],
-  "dependencies": {
-    "finalhandler": "^1.1.2",
-    "open": "^6.4.0",
-    "serve-static": "^1.14.1"
   }
 }

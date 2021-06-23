@@ -11,3 +11,5 @@ docs/.vuepress/dist
 es
 
 lib
+
+.serverless

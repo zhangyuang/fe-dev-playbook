@@ -1,0 +1,22 @@
+service:
+  name: fe-dev-playbook
+provider:
+  name: aliyun
+
+custom: # 发布后自动生成测试域名
+  customDomain:
+    domainName: auto
+
+package:
+  include:
+    - build
+  exclude:
+    - package-lock.json
+  artifact: code.zip
+
+deployType: 
+  type: static
+  config:
+    rewrite:
+       /$: index.html
+       /*.html : index.html
