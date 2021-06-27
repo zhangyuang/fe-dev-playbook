@@ -33,7 +33,7 @@ module.exports = {
       `var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?237f09190380353b568507efa87ac4ce";
+        hm.src = "https://hm.baidu.com/hm.js?623b47a95299ebf6b01c952b9ec44456";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })()`,
@@ -48,6 +48,10 @@ module.exports = {
       {
         text: 'Github',
         link: 'https://github.com/ykfe/fe-dev-playbook'
+      },
+      {
+        text: 'SSR 框架',
+        link: 'http://doc.ssr-fc.com/'
       },
     ],
     sidebar: {
