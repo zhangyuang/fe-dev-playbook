@@ -17,6 +17,6 @@ package:
 deployType: 
   type: static
   config:
-    rewrite:
-       /$: index.html
-       /*.html : index.html
+    config:
+      rewrite:
+      '@not /assets/(.*)': /index.html
